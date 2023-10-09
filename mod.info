@@ -1,0 +1,6 @@
+{Mod
+	{Name "40_Last_Victim_W40k"}
+	{Desc "Last_Victim Warhammer 40k [ASV] v 5.0"}
+	{MinGameVersion "3.260"}
+	{MaxGameVersion "3.265"}
+}
