@@ -1,0 +1,58 @@
+
+;			-----		Eldar			-----
+
+;Страж
+("soldier" breed(eldar1) side(eld) tags(sureken) cp(1) score(5) cw(1))
+("soldier" breed(eldar2) side(eld) tags(sureken) cp(1) score(5) cw(1))
+("soldier" breed(eldar3) side(eld) tags(sureken) cp(1) score(5) cw(1))
+("soldier" breed(eldar2_granate) side(eld) tags(sureken) cp(1) score(5) cw(1))
+("soldier" breed(eldar3_granate) side(eld) tags(sureken) cp(1) score(5) cw(1))
+
+;Танкист
+("soldier" breed(eldar_tankman) side(eld) tags(sureken) cp(0.0) score(5) cw(1))
+
+;???
+("soldier" breed(eldar_heavy_support1) side(eld) tags(sureken) cp(2) score(5) cw(1)) ;Вопрос
+("soldier" breed(eldar_heavy_support2) side(eld) tags(sureken) cp(2) score(5) cw(1)) ;Вопрос
+("soldier" breed(eldar_heavy_support3) side(eld) tags(sureken) cp(2) score(5) cw(1)) ;Вопрос
+
+;???
+("soldier" breed(eldar_veteran) side(eld) tags(sureken) cp(2) score(5) cw(1)) ;Вопрос
+
+;Страж - командир
+("soldier" breed(eldar_lider) side(eld) tags(sureken) cp(1) score(5) cw(1))
+("soldier" breed(eldar_lider_01) side(eld) tags(sureken) cp(1) score(5) cw(1))
+("soldier" breed(eldar_lider3) side(eld) tags(sureken) cp(1) score(5) cw(1))
+
+;Рейнджер
+("soldier" breed(ranger) side(eld) tags(eldar_rifle) cp(2) score(20) cw(1))
+("soldier" breed(ranger_exarch) side(eld) tags(weaver) cp(2) score(20) cw(1))
+
+;Жнец
+("soldier" breed(reaper) side(eld) tags(at) cp(2) score(50) cw(1))
+("soldier" breed(reaper_exarch) side(eld) tags(at) cp(2) score(50) cw(1))
+
+;Огненный дракон
+("soldier" breed(fire_dragon) side(eld) tags(weaver) cp(2) score(50) cw(1))
+("soldier" breed(fire_dragon2) side(eld) tags(weaver) cp(2) score(50) cw(1))
+("soldier" breed(fire_dragon_exarch) side(eld) tags(weaver) cp(2) score(50) cw(1))
+
+;Мститель
+("soldier" breed(eldar_avenger) side(eld) tags(weaver) cp(2) score(25) cw(1))
+("soldier" breed(eldar_avenger_exarch) side(eld) tags(weaver) cp(2) score(25) cw(1))
+
+;Паук варпа
+("soldier" breed(warp_spider) side(eld) tags(weaver) cp(1) score(10) cw(1))
+("soldier" breed(warp_spider_exarch) side(eld) tags(weaver) cp(1) score(10) cw(1))
+
+;Видящая
+("soldier" breed(eldar_farseer) side(eld) tags(farseer special) cp(7) score(200) cw(1))
+
+;Аутарх
+("soldier" breed(eldar_autarx) side(eld) tags(autarx special) cp(5) score(100) cw(1))
+
+;Варлоки
+("soldier" breed(eldar_warlock) side(eld) tags(advisers special) cp(5) score(50) cw(1))
+("soldier" breed(eldar_warlock_hero) side(eld) tags(warlock special) cp(5) score(50) cw(1))
+("soldier" breed(eldar_warlock_squad) side(eld) tags(advisers special) cp(5) score(50) cw(1))
+("soldier" breed(eldar_warlock_advisers) side(eld) tags(advisers special) cp(5) score(50) cw(1))

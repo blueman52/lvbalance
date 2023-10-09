@@ -1,0 +1,74 @@
+﻿
+;-------------------------------Death_Guard------------------------------------
+
+;Еретик - автоган
+("soldier" breed(rn_ag) side(dgs) tags(autogun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(rn_ag_01) side(dgs) tags(autogun) cp(0.5) score(0.33) cw(1))
+
+;Еретик - лазган
+("soldier" breed(rn_lg) side(dgs) tags(lasgun) cp(0.5) score(0.35) cw(1))
+
+;Еретик - РПГ
+("soldier" breed(rn_rl) side(dgs) tags(at) cp(0.5) score(0.33) cw(1))
+
+;Еретик - гранатомет 
+("soldier" breed(rn_gl) side(dgs) tags(grenade) cp(0.5) score(0.33) cw(1))
+("soldier" breed(rn_gl_01) side(dgs) tags(grenade) cp(0.5) score(0.33) cw(1))
+
+;БОТ
+("spacemarine" breed(w_bot_tactic_bg) 	side(dgs) tags(bolter) cp(2) score(15) cw(1))
+("spacemarine" breed(w_bot_tactic_rl) 	side(dgs) tags(at) cp(2) score(15) cw(1))
+
+;Чумной десантник
+("spacemarine" breed(tactic_bg) 	side(dgs) tags(bolter) cp(3) score(15) cw(1))
+("spacemarine" breed(tactic_gl) 	side(dgs) tags(bolter) cp(3) score(15) cw(1))
+("spacemarine" breed(tactic_bg_01)	side(dgs) tags(bolter) cp(3) score(15) cw(1))
+("spacemarine" breed(tactic_bg_02)	side(dgs) tags(bolter) cp(3) score(15) cw(1))
+("spacemarine" breed(tactic_bg_03)	side(dgs) tags(bolter) cp(3) score(15) cw(1))
+("spacemarine" breed(tactic_pfl)	side(dgs) tags(fl)	cp(3) score(15) cw(1))
+
+;Чумной десантник - тяж
+("spacemarine" breed(dev_hb)	side(dgs) tags(heavy_bolter) cp(4) score(15) cw(1))
+("spacemarine" breed(dev_ac)	side(dgs) tags(heavy_bolter) cp(4) score(15) cw(1))
+("spacemarine" breed(dev_prl)	side(dgs) tags(at) cp(4) score(15) cw(1))
+
+;Чумной десантник - гранатомет и желчемет
+("spacemarine" breed(tactic_gl) side(dgs) tags(grenade) cp(4) score(15) cw(1))
+("spacemarine" breed(tactic_rl) side(dgs) tags(grenade) cp(4) score(15) cw(1))
+
+;Чумной десантник - РПГ
+("spacemarine" breed(tactic_prl) side(dgs) tags(at) cp(4) score(15) cw(1))
+
+;Чумной десантник - плазмаган
+("spacemarine" breed(tactic_pg) side(dgs) tags(plasma) cp(4) score(15) cw(1))
+
+;Чумной десантник - сержант
+("spacemarine" breed(tactic_lider_bg) side(dgs) tags(bolter) cp(4) score(15) cw(1))
+("spacemarine" breed(tactic_lider_plasma) side(dgs) tags(plasma) cp(4) score(15) cw(1))
+
+;Ветеран
+("spacemarine" breed(tactic_vet_bg)		side(dgs) tags(bolter veteran) cp(4) score(25) cw(1))
+("spacemarine" breed(tactic_vet_bg_01)	side(dgs) tags(bolter veteran) cp(4) score(25) cw(1))
+("spacemarine" breed(tactic_vet_pfl)	side(dgs) tags(bolter veteran) cp(4) score(15) cw(1))
+("spacemarine" breed(tactic_vet_prl)	side(dgs) tags(bolter veteran) cp(4) score(15) cw(1))
+("spacemarine" breed(tactic_vet_pg)		side(dgs) tags(plasma veteran) cp(4) score(25) cw(1))
+
+;Ветеран - сержант
+("spacemarine" breed(tactic_vet_lider_bg) 		side(dgs) tags(bolter veteran) cp(4) score(25) cw(1))
+("spacemarine" breed(tactic_vet_lider_plasma) 	side(dgs) tags(plasma veteran) cp(4) score(25) cw(1))
+
+;Чемпион
+("spacemarine" breed(champion) side(dgs) tags(bolter champion special) cp(6) score(50) cw(1))
+
+;Избранный
+("spacemarine" breed(tactic_elite_bg) side(dgs) tags(bolter champion special) cp(5) score(35) cw(1))
+("spacemarine" breed(tactic_elite_bg_01) side(dgs) tags(bolter champion special) cp(5) score(35) cw(1))
+("spacemarine" breed(tactic_elite_ac) side(dgs) tags(bolter champion special) cp(5) score(35) cw(1))
+("spacemarine" breed(tactic_elite_pg) side(dgs) tags(bolter champion special) cp(5) score(35) cw(1))
+
+;Танкист - космодесантник
+("spacemarine" breed(tanker) side(dgs) tags(bolter tankman) cp(2) score(10) cw(1))
+
+;Танкист
+("soldier" breed(rn_tanker) side(dgs) tags(autogun tankman) cp(0.5) score(0.1) cw(1))
+

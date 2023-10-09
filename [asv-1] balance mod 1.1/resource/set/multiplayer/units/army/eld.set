@@ -1,0 +1,147 @@
+﻿
+;Guardian Squad
+("squad_with3types" side(eld) name(sq_eldar_gr1)	c(30) g(sq_1) c1(eldar_lider3:1) c2(eldar2_granate:4) c3(eldar2:5) b(squad1) t(sureken shield inf_com) level(1) cost(50) f(1))
+
+;Improved Guardian Squad
+("squad_with3types" side(eld) name(sq_eldar_gr)	c(60) g(sq_2) c1(eldar_lider3:1) c2(eldar3:5) c3(eldar3_granate:4) b(squad1) t(sureken shield inf_tac) level(1) cost(75) f(1))
+
+;Veteran Guardian
+("squad_with1types" side(eld) name(eldar_lider3)	c(60) g(sq_2) c1(eldar_lider3:10) b(squad1) t(sureken shield inf_tac) level(1) cost(125) f(1))
+
+;Warlock
+("squad_with1types" side(eld) name(sq_eldar_warlock)	c(50) g(sq_3) c1(eldar_warlock_squad:3) b(squad1) t(sureken shield inf_tac) level(1) cost(300) f(-5))
+
+;Dire Avenger
+("squad_with2types" side(eld) name(sq_avenger)	c(50) g(sq_4) c1(eldar_avenger_exarch:1) c2(eldar_avenger:9) b(squad1) t(weaver inf_tac) level(1) cost(250) f(-5))
+
+;Reaper
+("squad_with2types" side(eld) name(sq_reaper)	c(50) g(sq_5) c1(reaper_exarch:1) c2(reaper:4) b(squad1) t(at inf_a_all) level(1) cost(300) f(-5))
+
+;Fire Dragon
+("squad_with3types" side(eld) name(sq_fire_dragon) c(50) g(sq_6) c1(fire_dragon_exarch:1) c2(fire_dragon:3) c3(fire_dragon2:2) b(squad1) t(weaver inf_a_veh) level(1) cost(270) f(-5))
+
+;Ranger
+("squad_with1types" side(eld) name(sq_ranger) c(50) g(sq_7) c1(ranger:3) b(squad1) t(eldar_rifle inf_a_inf) level(1) cost(200) f(-5))
+
+;Призрачные Стражи -Wraith Guard
+{"wraithguard"								("v_4_i_0" c(120) c1(wraithguard) c2(wraithguard) c3(wraithguard) c4(wraithguard)		t(all inf_a_all) s(eld) g(sq_8) cp(5) b(squad1)) {cost 200} {score 200} {fore -3.5}}
+
+;Отряд Пауков Варпа-Warp Spiders
+("squad_with2types" side(eld) name(sq_warp_spider) c(50) g(sq_9) c1(warp_spider:9) c2(warp_spider_exarch:1) b(squad1) t(weaver inf_a_inf) level(1) cost(250) f(-5))
+
+;-------------------------------------------------------------------Платформы---------------------------------
+
+;Скатерр лазер 
+{"platform_skatter"				("v_1_i_0" c(30) c1(platform_skatter) t(all sup_sct) s(eld) g(hw_1) cp(3) b(squad2)) {level 1} {cost 85} {score 85} {fore -3}}
+
+;Сюрикеновая катапульта
+{"platform_shuriken"			("v_1_i_0" c(30) c1(platform_shuriken) t(all sup_a_inf) s(eld) g(hw_2) cp(3) b(squad2)) {level 1} {cost 95} {score 95} {fore -3}}
+
+;Ракетница
+{"platform_reaper_launcher"		("v_1_i_0" c(30) c1(platform_reaper_launcher) t(all sup_a_veh) s(eld) g(hw_3) cp(5) b(squad2)) {level 1} {cost 100} {score 100} {fore -3}}
+
+;Звёздная Пушка
+{"platform_starcannon"			("v_1_i_0" c(90) c1(platform_starcannon) t(all sup_a_all) s(eld) g(hw_4) cp(5) b(squad2)) {level 1} {cost 130} {score 130} {fore -5}}
+
+;Световое копьё
+{"platform_brightlance"			("v_1_i_0" c(90) c1(platform_brightlance) t(all sup_a_veh) s(eld) g(hw_5) cp(5) b(squad2)) {level 1} {cost 150} {score 150} {fore -5}}
+
+
+;-----------------------Артилерия--------------------
+;Тенеплет
+{"eldars_shadow_weaver"			("v_1_i_1" c(300) c1(eldars_shadow_weaver) 	t(all veh_art) s(eld) n1(eldar3:1) g(art_1) cp(10) b(v2)) {cost 250} {fore 0}}
+
+;Д пушка
+;{"platform_dcannon"				("v_1_i_0" c(300) c1(platform_dcannon) t(all sup_a_all) s(eld) g(art_2) cp(15) b(v2)) {level 1} {cost 666} {score 666} {fore -0.8}}
+
+;Штром эльдар 
+{"eldar_storm_strike"							("v_1_i_0" c(600) c1(eldar_storm_strike) 		t(all strike) s(eld) g(art_3) cp(0) b(v2)) {cost 500} {fore -1.25}}
+
+;-----------------------ГРАВИЦИКЛЫ--------------------
+
+;Гравицикл
+{"eldar_jetbike"				("v_1_i_1" c(40) c1(eldar_jetbike) n1(Eldar_tankman:1)	t(all non) s(eld) g(sent_1) cp(2) b(v1)) {cost 55} {score 55} {fore 1}}
+
+;Гравицклы - сиюрекен катапульта 
+{"eldar_jetbike_shuriken"		("v_1_i_1" c(40) c1(eldar_jetbike_shuriken)	n1(Eldar_tankman:1)	t(all sup_a_inf) s(eld) g(sent_2) cp(2) b(v1)) {cost 85} {score 85} {fore -2}}
+
+;Сюрикен катапульта - Вайпер
+{"vyper_shuriken"				("v_1_i_1" c(120) c1(vyper_shuriken) 		t(all sup_a_inf) s(eld) n1(eldar_tankman:2) g(sent_3) cp(5) b(v1)) {cost 120} {fore 0}}
+
+; Ракетница - Вайпер
+{"vyper_reaper_launcher"		("v_1_i_1" c(120) c1(vyper_reaper_launcher) 		t(all sup_a_veh) s(eld) n1(eldar_tankman:2) g(sent_4) cp(5) b(v1)) {cost 140} {fore 0}}
+
+;Световое копьё - Вайпер
+{"vyper_brightlance"			("v_1_i_1" c(120) c1(vyper_brightlance) 			t(all sup_a_veh) s(eld) n1(eldar_tankman:2) g(sent_5) cp(5) b(v1)) {cost 180} {fore -3.5}}
+
+;-------------------------Техника-------------------------
+;Призрачный Лорд - рукопашка + сюрекенка 
+{"wraithlord_shuriken_catapult"										("v_1_i_0" c(120) c1(wraithlord_shuriken_catapult) 	cp(10)	t(all veh_a_inf) s(eld) g(tank_1) b(v5)) {cost 300} {score 300} {fore -3.5}}
+
+;Призрачный Лорд - Сюрикен Пушка
+{"wraithlord_shuriken_catapult_shuriken_cannon"						("v_1_i_0" c(120) c1(wraithlord_shuriken_catapult_shuriken_cannon) 	cp(10)	t(all veh_a_inf) s(eld) g(tank_2) b(v5)) {cost 400} {score 400} {fore -3.5}}
+
+;Призрачный Лорд - Световое копьё
+{"wraithlord_shuriken_catapult_brightlance"							("v_1_i_0" c(120) c1(wraithlord_shuriken_catapult_brightlance) 	cp(15)	t(all veh_a_veh) s(eld) g(tank_3) b(v5)) {cost 500} {score 450} {fore -3.5}}
+
+
+;Волновой змей - Рассеивающей лазер
+{"eldar_wave_skatter"										("v_1_i_2" c(120) c1(eldar_wave_skatter) 		t(all veh_a_inf) s(eld) n1(Eldar_tankman:2) n2(eldar3:12) g(tank_4) cp(15) b(v4)) {cost 450} {score 450} {fore -3.5}}
+
+;Волновой змей - Сюрикеновая катапульта
+{"eldar_wave_shuriken"										("v_1_i_2" c(120) c1(eldar_wave_shuriken) 		t(all veh_a_inf) s(eld) n1(Eldar_tankman:2) n2(eldar3:12) g(tank_5) cp(15) b(v4)) {cost 550} {score 550} {fore -3.5}}
+
+;Волновой змей - Рипер лаунчер
+{"eldar_wave_rl"										("v_1_i_2" c(120) c1(eldar_wave_rl) 		t(all veh_a_veh) s(eld) n1(Eldar_tankman:2) n2(eldar3:0) g(tank_6) cp(20) b(v4)) {cost 600} {score 600} {fore -3.5}}
+
+;Волновой змей - плазменные пушки
+{"eldar_wave_starcannon"										("v_1_i_2" c(120) c1(eldar_wave_starcannon) 		t(all veh_a_all) s(eld) n1(Eldar_tankman:2) n2(eldar3:0) g(tank_7) cp(25) b(v4)) {cost 800} {score 800} {fore -3.5}}
+
+
+;Сокол - импульсный лазер
+{"eldar_falcon"										("v_1_i_2" c(120) c1(eldar_falcon) 		t(all veh_a_inf) s(eld) n1(Eldar_tankman:2) n2(eldar3:0) g(tank_8) cp(25) b(v4)) {cost 800} {score 850} {fore -3.5}}
+
+
+;Волновой змей- световое копьё
+{"eldar_wave_brightlance"										("v_1_i_2" c(120) c1(eldar_wave_brightlance) 		t(all veh_a_veh) s(eld) n1(Eldar_tankman:2) n2(eldar3:12) g(tank_9) cp(25) b(v4)) {cost 1000} {score 1000} {fore -4}}
+
+;Огненная призма
+;{"eldar_fire_prism"										("v_1_i_1" c(240) c1(eldar_fire_prism) 		t(all ult) s(eld) n1(Eldar_tankman:2) g(tank_9) cp(30) b(v4)) {cost 1000} {score 1000} {fore -3.5}}
+
+								
+
+;=================================Герои=================================;
+;Отряд Пауков Варпа-Warp Spiders
+;("squad_with2types" side(eld) name(sq_warp_spider) c(250) g(h_1) c1(warp_spider:9) c2(warp_spider_exarch:1) b(hero) t(weaver inf_a_inf) level(1) cost(2) f(-1.25))
+
+;Аутарх-Eldar Autist
+("squad_with1types" side(eld) name(autarx) c(400) g(h_2) c1(eldar_autarx:1) b(hero) t(autarx special inf_a_veh) level(3) cost(1) f(-0.8))
+
+;Совет Видящей - Far Seer
+("squad_with2types" side(eld) name(advisers) c(500) g(h_3) c1(eldar_farseer:1) c2(eldar_warlock:6) b(hero) t(special inf_a_all) level(3) cost(5) f(-0.8))
+
+;Призрачный Лорд - Световое копьё
+;{"wraithlord_shuriken_catapult_brightlance"							("v_1_i_0" c(120) c1(wraithlord_shuriken_catapult_brightlance) 	cp(15)	t(all veh_a_all) s(eld) g(h_8)) b(hero)) {cost 4} {score 450} {fore -3.5}}
+
+;Огненная призма
+{"eldar_fire_prism"										("v_1_i_1" c(240) c1(eldar_fire_prism) 		t(all ult) s(eld) n1(Eldar_tankman:2) g(h_5) cp(30) b(hero)) {cost 8} {score 1000} {fore -3.5}}
+
+;Д пушка
+{"platform_dcannon"				("v_1_i_0" c(300) c1(platform_dcannon) t(all sup_a_all) s(eld) g(h_6) cp(15) b(hero)) {level 1} {cost 3} {score 666} {fore -0.8}}
+
+;Призрачный Лорд - рукопашка 
+;{"wraithlord"										("v_1_i_0" c(120) c1(wraithlord) 	cp(5)	t(all veh_a_all) s(eld) g(h_8) b(hero)) {cost 1} {score 100} {fore -2.5}}
+
+("squad_with2types" side(eld) name(bot_autarx) c(600) g(autarx) c1(eldar_farseer:1) c2(eldar_warlock:6) b(non) t(special non) level(3) cost(0) f(-0.8))
+("squad_with2types" side(eld) name(bot_advisers) c(540) g(advisers) c1(eldar_farseer:1) c2(eldar_warlock:6) b(non) t(special non) level(3) cost(0) f(-1))
+
+
+
+;Отряд мяса
+("squad_with2types" side(eld) name(sq_eldar_gr_bot)	c(30) g(squad_99) c1(eldar2_granate:2) c2(eldar2:7) b(squad_99) t(sureken free_inf_com) level(1) cost(25) f(-17))
+
+;Отряд с ракетницей
+("squad_with2types" side(eld) name(sq_reaper_bot)	c(35) g(squad_99) c2(reaper:3) c2(eldar2:5) b(squad_99) t(at free_inf_a_veh) level(1) cost(60) f(-17))
+
+;Лордик
+{"wraithlord_shuriken_catapult_bot"										("v_1_i_0" c(60) c1(wraithlord_shuriken_catapult) 	cp(7)	t(all free_veh_a_all) s(eld) g(squad_99) b(squad_99)) {cost 70} {score 70} {fore -9}}

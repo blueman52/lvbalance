@@ -1,0 +1,30 @@
+
+;skitarii ranger
+("soldier" breed(skitarii_ranger) 			side(ams) tags(rifle) cp(1) score(0.33) cw(1))
+("soldier" breed(skitarii_ranger_gr) 		side(ams) tags(rifle) cp(1) score(0.33) cw(1))
+("soldier" breed(skitarii_ranger_arc) 		side(ams) tags(arc) cp(1) score(0.33) cw(1))
+("soldier" breed(skitarii_ranger_pg) 		side(ams) tags(plasma) cp(1) score(0.33) cw(1))
+
+;skitarii vanguard
+("soldier" breed(skitarii_vanguard) 		side(ams) tags(rifle veteran) cp(1) score(1) cw(1))
+("soldier" breed(skitarii_vanguard_arc) 	side(ams) tags(arc veteran) cp(1) score(1) cw(1))
+("soldier" breed(skitarii_vanguard_pg) 		side(ams) tags(plasma veteran) cp(1) score(1) cw(1))
+("soldier" breed(skitarii_vanguard_ph) 		side(ams) tags(ph veteran) cp(1) score(1) cw(1))
+("soldier" breed(skitarii_vanguard_rad) 	side(ams) tags(rad veteran) cp(1) score(1) cw(1))
+("soldier" breed(skitarii_vanguard_gamma) 	side(ams) tags(rad veteran) cp(1) score(1) cw(1))
+
+;skitarii Танкист
+("soldier" breed(tanker) 					side(ams) tags(tankman) cp(0.5) score(0.2) cw(1))
+("soldier" breed(tanker_vanguard) 			side(ams) tags(tankman) cp(0.5) score(0.2) cw(1))
+
+
+;skitarii vanguard
+("soldier" breed(secutarii) 		side(ams) tags(veteran) cp(1) score(1) cw(1))
+("soldier" breed(secutarii_arc) 	side(ams) tags(arc veteran) cp(1) score(1) cw(1))
+("soldier" breed(secutarii_charge) 	side(ams) tags(veteran) cp(1) score(1) cw(1))
+("soldier" breed(secutarii_rad) 	side(ams) tags(veteran) cp(1) score(1) cw(1))
+("soldier" breed(secutarii_serg) 	side(ams) tags(veteran) cp(1) score(1) cw(1))
+
+
+("soldier" breed(w_bot_skitarii_ranger) 			side(ams) tags(rifle) cp(0.5) score(0.25) cw(1))
+("soldier" breed(w_bot_skitarii_ranger_arc) 			side(ams) tags(rifle) cp(0.5) score(0.25) cw(1))

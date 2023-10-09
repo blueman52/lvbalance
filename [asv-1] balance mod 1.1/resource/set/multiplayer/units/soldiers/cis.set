@@ -1,0 +1,39 @@
+
+;
+("soldier" breed(Tactical_droid) 	side(cis) tags(tankman) cp(1) score(0.2) cw(1))
+("soldier" breed(b1_command) 		side(cis) tags(blaster) cp(1) score(0.2) cw(1))
+("soldier" breed(b1_droid) 			side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_gl) 			side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_guard) 			side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_guard_leader) 	side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_guard_mgun) 	side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_guard_rl) 		side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_guard_sniper) 	side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_jetpack) 		side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_mgun) 			side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_pilot) 			side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_rifle) 			side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_rl) 			side(cis) tags(blaster at) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_saper) 			side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_serg) 			side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_serg_01) 		side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+("soldier" breed(b1_sniper) 		side(cis) tags(blaster) cp(1.25) score(0.2) cw(1))
+
+; Танкист
+("soldier" breed(b1_tankman) 		side(cis) tags(tankman) cp(0) score(0.2) cw(1))
+("soldier" breed(b1_tankman_2) 		side(cis) tags(tankman) cp(0) score(0.2) cw(1))
+("soldier" breed(b1_pilot) 			side(cis) tags(tankman) cp(0) score(0.2) cw(1))
+("soldier" breed(b1_pilot_speeder) 	side(cis) tags(tankman) cp(0) score(0.2) cw(1))
+
+("soldier" breed(BX_droid) 			side(cis) tags(veteran) cp(2) score(0.2) cw(1))
+("soldier" breed(BX_droid_rl) 		side(cis) tags(veteran at) cp(2) score(0.2) cw(1))
+("soldier" breed(BX_droid_shield) 	side(cis) tags(veteran) cp(2) score(0.2) cw(1))
+
+("soldier" breed(IG-100_droid) 			side(cis) tags(veteran) cp(2) score(0.2) cw(1))
+("soldier" breed(IG-100_droid_rl) 		side(cis) tags(veteran at) cp(2) score(0.2) cw(1))
+("soldier" breed(IG-100_droid_sniper) 	side(cis) tags(veteran) cp(2) score(0.2) cw(1))
+("soldier" breed(IG-100_elite) 			side(cis) tags(veteran) cp(2) score(0.2) cw(1))
+("soldier" breed(IG-100_elite_rl) 		side(cis) tags(veteran at) cp(2) score(0.2) cw(1))
+("soldier" breed(IG-100_elite_sniper) 	side(cis) tags(veteran) cp(2) score(0.2) cw(1))
+
+

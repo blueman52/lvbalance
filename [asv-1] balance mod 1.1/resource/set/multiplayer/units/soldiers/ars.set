@@ -1,0 +1,59 @@
+
+;-------------------------------Armageddon Side---------------------------------
+
+;Лазган
+("soldier" breed(ig_lg) 		side(ars) tags(lasgun) cp(0.5) score(1) cw(1))
+("soldier" breed(ig_lg_01) 		side(ars) tags(lasgun) cp(0.5) score(1) cw(1))
+("soldier" breed(ig_vet_lg) 		side(ars) tags(lasgun veteran) cp(1) score(6) cw(1))
+("soldier" breed(ig_vet_lg_01) 		side(ars) tags(lasgun veteran) cp(1) score(6) cw(1))
+
+;Огнемет
+("soldier" breed(ig_fl) 		side(ars) tags(flamer) cp(0.5) score(10) cw(1))
+
+;Гранатомет
+("soldier" breed(ig_gl) side(ars) tags(grenade) cp(0.5) score(10) cw(1))
+("soldier" breed(ig_gl_01) side(ars) tags(grenade) cp(0.5) score(10) cw(1))
+("soldier" breed(ig_vet_gl) side(ars) tags(grenade veteran) cp(1) score(15) cw(1))
+
+;РПГ
+("soldier" breed(ig_rl) 	side(ars) tags(at) cp(0.5) score(1) cw(1))
+("soldier" breed(ig_vet_rl) 	side(ars) tags(at veteran) cp(1) score(1) cw(1))
+
+;Мельта
+("soldier" breed(ig_ml) 		side(ars) tags(melta at) cp(0.5) score(10) cw(1))
+("soldier" breed(ig_vet_ml) 		side(ars) tags(melta at veteran) cp(1) score(1) cw(1))
+
+;Плазмаган
+("soldier" breed(ig_pg) 		side(ars) tags(plasma) cp(0.5) score(15) cw(1))
+("soldier" breed(ig_vet_pg) 		side(ars) tags(plasma veteran) cp(1) score(1) cw(1))
+
+;Оператор вокса
+("soldier" breed(ig_vox) 		side(ars) tags(lasgun vox) cp(1) score(0.33) cw(1))
+
+;Штурмовик
+("soldier" breed(ig_strom_hg) 	side(ars) tags(hellgun) cp(1) score(20) cw(1))
+("soldier" breed(ig_strom_hg_01) 	side(ars) tags(hellgun) cp(1) score(20) cw(1))
+("soldier" breed(ig_strom_pg) 	side(ars) tags(plasma) cp(1) score(20) cw(1))
+("soldier" breed(ig_strom_pc) 	side(ars) tags(plasma) cp(1) score(20) cw(1))
+("soldier" breed(ig_strom_ml) 	side(ars) tags(melta at) cp(1) score(20) cw(1))
+("soldier" breed(ig_strom_ml_01) 	side(ars) tags(melta at) cp(1) score(20) cw(1))
+
+;Комиссар
+("soldier" breed(commissar_bolt) 	side(ars) tags(bolter commissar) 			cp(1) score(20) cw(1))
+("soldier" breed(commissar_las) 	side(ars) tags(lasgun commissar) 			cp(1) score(20) cw(1))
+("soldier" breed(commissar_tank)	side(ars) tags(lasgun commissar tankman) 	cp(1) score(20) cw(1))
+("soldier" breed(commissar_plp)		side(ars) tags(lasgun commissar tankman) 	cp(1) score(20) cw(1))
+
+;Инженеры
+("soldier" breed(ig_engener1)		side(ars) tags(engener) 	cp(5) score(90) cw(1))
+("soldier" breed(ig_engener2)		side(ars) tags(engener) 	cp(5) score(180) cw(1))
+
+;Танкист
+("soldier" breed(tanker) 			side(ars) tags(lasgun tankman) cp(0.5) score(1) cw(1))
+("soldier" breed(tanker_01) 			side(ars) tags(lasgun tankman) cp(0.5) score(1) cw(1))
+
+
+("soldier" breed(inquisition_psyker) side(ars) tags(psyker) cp(5) 	score(100) cw(1))
+("soldier" breed(ig_sr) 		side(ars) tags(sniper) cp(0.5) score(10) cw(1))
+;-------------------------------Armageddon side---------------------------------
+

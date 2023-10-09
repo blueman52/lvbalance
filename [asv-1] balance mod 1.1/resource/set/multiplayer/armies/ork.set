@@ -1,0 +1,7 @@
+﻿{army
+	{id 14}
+	{title "mp/army/ork"}
+	{icon "/interface/pages/multi/flag_orks"}
+	{flag "/interface/pages/multi/flag_orks"}
+}
+

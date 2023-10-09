@@ -1,0 +1,60 @@
+
+;			-----		Tau			-----
+
+;Штурмовые
+("soldier" breed(assault_fw) 		side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+("soldier" breed(assault_fw_serg)	side(tau) tags(at) cp(1.5) score(8) cw(1))
+
+;Воин огня
+("soldier" breed(fw) 			side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+("soldier" breed(fw_pr) 		side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+
+;Воин огня - лидер
+("soldier" breed(fw_serg) 	side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+("soldier" breed(fw_serg_pr) side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+
+;Элита
+("soldier" breed(fw_vet) 				side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+("soldier" breed(fw_vet_pr) 			side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+
+;Элита - лидер
+("soldier" breed(fw_vet_serg) 		side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+("soldier" breed(fw_vet_serg_pr) 	side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+
+;Элита - Телохранитель
+("soldier" breed(bonded) 				side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+
+
+;XV-15
+("soldier" breed(xv15) 			side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+("soldier" breed(xv15_at) 		side(tau) tags(at) cp(1.5)  score(8) cw(1))
+;XV-25
+("soldier" breed(xv25) 		side(tau) tags(pulse) cp(1.5)  score(8) cw(1))
+("soldier" breed(xv25_at) 	side(tau) tags(at) cp(1.5)  score(8) cw(1))
+;Vespid
+("soldier" breed(vespid) 			side(tau) tags(vespid) cp(1.5)  score(8) cw(1)) ;Вопрос
+
+;Гвардейцы
+("soldier" breed(tau_guard_lg) 		side(tau) tags(lasgun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(tau_guard_lg_01) 		side(tau) tags(lasgun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(tau_guard_serg_pr) 		side(tau) tags(pulse) cp(0.5) score(0.4) cw(1))
+
+;Круут
+("soldier" breed(kroot) 		side(tau) tags(krootrifle) cp(1.5) score(1) cw(1))
+("soldier" breed(kroot_01) 		side(tau) tags(krootrifle) cp(1.5) score(1) cw(1))
+("soldier" breed(kroot_02) 		side(tau) tags(krootrifle) cp(1.5) score(1) cw(1))
+("soldier" breed(kroot_shaper) 	side(tau) tags(pulse) cp(1.5) score(1) cw(1)) ;Вопрос тег оружие
+
+;Следопыт
+("soldier" breed(pathfinder) 			side(tau) tags(pulse) cp(1.5) score(0.5) cw(1))
+("soldier" breed(pathfinder_ion) 		side(tau) tags(ion_rifle) cp(1.5) score(0.5) cw(1))
+("soldier" breed(pathfinder_railrifle) 	side(tau) tags(rail_rifle) cp(1.5) score(0.5) cw(1))
+
+;Следопыт - лидер
+("soldier" breed(pathfinder_serg) 				side(tau) tags(pulse) cp(1.5) score(0.5) cw(1))
+("soldier" breed(pathfinder_serg_ion) 			side(tau) tags(ion_rifle) cp(1.5) score(0.5) cw(1))
+("soldier" breed(pathfinder_serg_railrifle) 	side(tau) tags(rail_rifle) cp(1.5) score(0.5) cw(1))
+
+;Пилот
+("soldier" breed(tanker) 				side(tau) tags(pulse tankman) cp(1.5) score(0.2) cw(1))
+("soldier" breed(tanker_serg) 			side(tau) tags(pulse tankman) cp(1.5) score(0.2) cw(1))

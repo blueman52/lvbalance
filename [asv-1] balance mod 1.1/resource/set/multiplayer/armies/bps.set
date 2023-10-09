@@ -1,0 +1,7 @@
+﻿{army
+	{id 11}
+	{title "mp/army/bps"}
+	{icon "/interface/pages/multi/flag_bps"}
+	{flag "/interface/pages/multi/flag_bps"}
+}
+

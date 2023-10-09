@@ -1,0 +1,7 @@
+{army
+	{id 13}
+	{title "mp/army/eld"}
+	{icon "/interface/pages/multi/flag_eld"}
+	{flag "/interface/pages/multi/flag_eld"}
+}
+

@@ -1,0 +1,7 @@
+﻿{army
+	{id 6}
+	{title "mp/army/kgs"}
+	{icon "/interface/pages/multi/flag_kgs"}
+	{flag "/interface/pages/multi/flag_kgs"}
+}
+

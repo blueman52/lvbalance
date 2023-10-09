@@ -1,0 +1,98 @@
+
+;-------------------------------Imperial_Guard---------------------------------
+
+;Автоган
+("soldier" breed(ig_ag) 		side(igs) tags(autogun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(ig_ag_01) 		side(igs) tags(autogun) cp(0.5) score(0.33) cw(1))
+
+
+;Лазган
+("soldier" breed(ig_lg) 		side(igs) tags(lasgun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(ig_lg_01) 		side(igs) tags(lasgun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(ig_vet_lg) 		side(igs) tags(lasgun veteran) cp(1) score(1) cw(1))
+("soldier" breed(ig_vet_lg_01) 		side(igs) tags(lasgun veteran) cp(1) score(1) cw(1))
+("soldier" breed(ig_vet_lg_02) 		side(igs) tags(lasgun veteran) cp(1) score(1) cw(1))
+("soldier" breed(ig_vet_hg) 		side(igs) tags(lasgun veteran) cp(1) score(1) cw(1))
+
+;ПДФ
+("soldier" breed(pdf_ag_00) 	side(igs) tags(autogun) cp(0.25) score(0.25) cw(1))
+("soldier" breed(plf_lg) 		side(igs) tags(lasgun) cp(0.25) score(0.33) cw(1))
+("soldier" breed(plf_lg_01) 	side(igs) tags(lasgun) cp(0.25) score(1) cw(1))
+
+;Огнемет
+("soldier" breed(ig_fl) 		side(igs) tags(flamer) cp(1) score(0.33) cw(1))
+
+;Гранатомет
+("soldier" breed(ig_gl) side(igs) tags(grenade) cp(0.5) score(0.33) cw(1))
+("soldier" breed(ig_vet_gl) side(igs) tags(grenade veteran) cp(1) score(1) cw(1))
+
+;Стаббер
+("soldier" breed(ig_stb) 	side(igs) tags(stabber) cp(0.5) score(0.33) cw(1))
+
+;РПГ
+("soldier" breed(ig_rl) 	side(igs) tags(at) cp(0.5) score(0.33) cw(1))
+
+;Мельта
+("soldier" breed(ig_ml) 		side(igs) tags(melta at) cp(0.5) score(10) cw(1))
+("soldier" breed(ig_vet_ml) 		side(igs) tags(melta at) cp(1) score(1) cw(1))
+
+;Плазмаган
+("soldier" breed(ig_pg) 		side(igs) tags(plasma) cp(0.5) score(10) cw(1))
+("soldier" breed(ig_vet_pg) 		side(igs) tags(plasma veteran) cp(1) score(1) cw(1))
+
+;Снайпер
+("soldier" breed(ig_sr) 		side(igs) tags(sniper) cp(0.5) score(0.44) cw(1))
+("soldier" breed(ig_vet_sr) 		side(igs) tags(sniper veteran) cp(0.5) score(1) cw(1))
+
+;Корректировщик
+("soldier" breed(ig_vet_korrekt) side(igs) tags(lasgun spotter veteran) cp(0.5) score(0.44) cw(1))
+("soldier" breed(ig_vet_korrekt) side(igs) tags(lasgun spotter veteran) cp(0.5) score(0.44) cw(1))
+
+;Оператор вокса
+("soldier" breed(ig_vox) 		side(igs) tags(lasgun vox) cp(0.5) score(0.33) cw(1))
+
+;Сержант
+("soldier" breed(serg_las) 	side(igs) tags(lasgun) cp(1) score(0.33) cw(1))
+("soldier" breed(serg_plasma) 	side(igs) tags(plasma) cp(1) score(0.33) cw(1))
+
+;Штурмовик
+("soldier" breed(ig_strom_hg) 	side(igs) tags(hellgun) cp(1) score(2) cw(1))
+
+;Касркин
+("soldier" breed(kasrkin_hg) 	side(igs) tags(heavy_lasgun) cp(1) score(3) cw(1))
+("soldier" breed(kasrkin_pg) side(igs) tags(plasma) cp(1) score(3) cw(1))
+("soldier" breed(kasrkin_pc) side(igs) tags(plasma) cp(1) score(3) cw(1))
+
+;Катачанец
+("soldier" breed(cathacan_sg) 	side(igs) tags(shotgun) cp(1) score(0.5) cw(1))
+("soldier" breed(cathacan_lg) 	side(igs) tags(lasgun) cp(1) score(0.5) cw(1))
+("soldier" breed(cathacan_hb) 		side(igs) tags(heavy_bolter) cp(1) score(0.5) cw(1))
+("soldier" breed(cathacan_lider) 	side(igs) tags(plasma) cp(1) score(0.5) cw(1))
+
+;Комиссар
+("soldier" breed(commissar_bolt) 	side(igs) tags(bolter) cp(0.5) score(10) cw(1))
+("soldier" breed(commissar_las) 	side(igs) tags(lasgun) cp(0.5) score(10) cw(1))
+("soldier" breed(commissar_tank)	side(igs) tags(lasgun tankman) cp(0.5) score(10) cw(1))
+
+;Виндикар
+("soldier" breed(vindicare) 		side(igs) tags(sniper special) cp(1) score(5) cw(1))
+
+;Танкист
+("soldier" breed(tanker) 			side(igs) tags(lasgun tankman) cp(0.5) score(0.1) cw(1))
+("soldier" breed(tanker_01) 			side(igs) tags(lasgun tankman) cp(0.5) score(0.1) cw(1))
+
+;Инквизиция
+("soldier" breed(inquisition_lg) side(igs) tags(lasgun) cp(1) score(1) cw(1))
+("soldier" breed(inquisition_psyker) side(igs) tags(psyker) cp(5) 	score(1) cw(1))
+
+;Разведчик
+("soldier" breed(ig_vet_raz) 		side(igs) tags(spotter) cp(0.5) score(1) cw(1))
+
+;Техножрец
+("soldier" breed(ig_engener1) 		side(igs) tags(engener) cp(5) score(2) cw(1)) ;Вопрос
+("soldier" breed(ig_engener2) 		side(igs) tags(engener) cp(5) score(2) cw(1))
+
+
+
+;-------------------------------Imperial_Guard---------------------------------
+

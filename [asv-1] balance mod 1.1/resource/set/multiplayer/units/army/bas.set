@@ -1,0 +1,270 @@
+﻿
+;Отряд Скаутов 
+("squad_with3types" side(bas) name(sq_scout_bg) 			c(45) g(squad_1) c1(scout_serg_bg:1) c2(scout_bg:3) c3(scout_bg_01:1) b(squad1) t(bolter inf_tac) level(1) cost(100) f(1.0))
+
+;Отряд Скаутов с дробовиками
+("squad_with3types" side(bas) name(sq_scout_sg) 			c(45) g(squad_1) c1(scout_serg_sg:1) c2(scout_sg:3) c3(scout_gl:1) b(squad1) t(shotgun grenade inf_tac) level(1) cost(110) f(1.0))
+
+;Отряд Скаутов со снайперскими винтовками
+("squad_with2types" side(bas) name(sq_scout_sr) 			c(240) g(squad_2) c1(scout_serg_sr:1) c2(scout_sr:4) b(squad1) t(sniper non) level(1) cost(150) f(-0.25))
+
+
+;Тактический Отряд
+("squad_with3types" side(bas) name(sq_tact_bg) 				c(60) g(squad_3) c1(tactic_serg_bg:1) c2(tactic_bg:2) c3(tactic_bg_01:2) b(squad1) t(bolter inf_tac) level(1) cost(250) f(-0.5))
+
+;Ветераны cо спецболтами
+("squad_with4types" side(bas) name(sq_tact_vet_bg_sb) 		c(300) g(squad_4) c1(tactic_vet_serg_bg:1) c2(tactic_vet_shb:1) c3(tactic_vet_bg_sb:3) c4(tactic_vet_ml:1) b(squad1) t(bolter special inf_tac) level(1) cost(400) f(-0.8))
+
+;Ветераны c Ракетным вооружением 
+("squad_with4types" side(bas) name(sq_tact_vet_bg_rl) 		c(300) g(squad_4) c1(tactic_vet_serg_bgm:1) c2(tactic_vet_bg:1) c3(tactic_vet_rl:3) c4(tactic_vet_ml:1) b(squad1) t(at inf_a_veh) level(1) cost(550) f(-0.8))
+
+
+
+;Тактикалы c болторами Охотник (ранее ветераны, в 2.38.5 заменены на тактикалов).
+("squad_with1types" side(bas) name(sq_tact_hunter) 		c(300) g(squad_5) c1(tactic_vet_hunter:5) b(squad1) t(sniper non) level(1) cost(500) f(-0.8))
+
+;Ветераны с плазмаганами
+("squad_with4types" side(bas) name(sq_tact_vet_bg_pg) 		c(300) g(squad_4) c1(tactic_vet_serg_bgp:1) c2(tactic_vet_bg:1) c3(tactic_vet_pg:3) c4(tactic_vet_ml:1) b(squad1) t(plasma inf_a_inf) level(1) cost(500) f(-0.8))
+
+;Ветераны c гравиоружием
+("squad_with3types" side(bas) name(sq_tact_vet_gravi) 		c(300) g(squad_6) c1(tactic_vet_serg_gp:1) c2(tactic_vet_bg:2) c3(tactic_vet_gravi:2) b(squad1) t(gravgun special inf_a_all) level(1) cost(650) f(-2.6))
+
+;=================================Спецотряды=================================;
+;Опустошители с тяжелым болтером
+("squad_with2types" side(bas) name(sq_dev_hb)						c(120) g(hw_1) c1(dev_hb:1) c2(tactic_bg:2) b(squad3) t(heavy_bolter inf_a_inf) level(1) cost(180) f(0))
+
+;Опустошители с мультимельтой 
+("squad_with2types" side(bas) name(sq_dev_mm)						c(120) g(hw_2) c1(dev_mm:1) c2(tactic_bg:2) b(squad3) t(multimelta inf_a_veh) level(1) cost(200) f(-3.5))
+
+;Опустошителей с лазпушкой
+("squad_with2types" side(bas) name(sq_dev_lc)						c(120) g(hw_2) c1(dev_lc:1) c2(tactic_bg:2) b(squad3) t(lascannon inf_a_veh) level(1) cost(200) f(-3.5))
+
+;Опустошители с плазмопушкой
+("squad_with2types" side(bas) name(sq_dev_pc)						c(300) g(hw_3) c1(dev_pc:1) c2(tactic_vet_bg:2) b(squad3) t(plasma_cannon inf_a_all) level(1) cost(300) f(-0.8))
+
+;Опустошители с Гравипушкой 
+("squad_with2types" side(bas) name(sq_dev_grav)						c(300) g(hw_4) c1(dev_grav:1) c2(tactic_vet_bg:2) b(squad3) t(gravgun special inf_a_all) level(1) cost(500) f(-2.6))
+
+;================================== Десант ======
+
+;Отряд Штурмовиков
+("squad_with3types_vehicle" side(bas) name(sq_am_bg)				c(300) g(squad_7) v1(ba_drop_pod) c1(assault_serg:1) c2(assault_fl:2) c3(assault_ml:2) b(squad3) t(bolter par) level(1) cost(350) f(-0.8))
+
+;Тактический Отряд
+("squad_with3types_vehicle" side(bas) name(sq_tact_bg_drop) 				c(60) g(squad_3) v1(ba_drop_pod) c1(tactic_bg:2) c2(tactic_bg_01:2) c3(tactic_serg_bg:1) b(squad3) t(bolter par) level(1) cost(250) f(-0.5))
+
+;Ветераны cо спецболтами
+("squad_with4types_vehicle" side(bas) name(sq_tact_vet_bg_sb_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bg:1) c2(tactic_vet_shb:1) c3(tactic_vet_bg_sb:3) c4(tactic_vet_ml:1) b(squad3) t(bolter special non) level(1) cost(450) f(-0.8))
+
+;Ветераны c Ракетным вооружением 
+("squad_with3types_vehicle" side(bas) name(sq_tact_vet_bg_rl_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bgm:1) c2(tactic_vet_bg:1) c3(tactic_vet_rl:3) b(squad3) t(at non) level(1) cost(650) f(-0.8))
+
+
+;Ветераны с плазмаганами
+("squad_with3types_vehicle" side(bas) name(sq_tact_vet_bg_pg_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bgp:1) c2(tactic_vet_bg:1) c3(tactic_vet_pg:3) b(squad3) t(plasma non) level(1) cost(600) f(-0.8))
+
+
+;Ветераны c гравиоружием
+("squad_with3types_vehicle" side(bas) name(sq_tact_vet_gravi_drop) 			c(300) g(squad_6) v1(ba_drop_pod) c1(tactic_vet_serg_bg:1) c2(tactic_vet_bg:2) c3(tactic_vet_gravi:2) b(squad3) t(gravgun special non) level(1) cost(750) f(-2.6))
+
+;=================================Одиночные бойцы=================================;
+;Десантник с огнемётом
+("squad_with1types" side(bas) name(tact_fl) 		c(60) g(sq_1) c1(tactic_fl:3) b(squad2) t(plasma inf_a_inf) level(1) cost(150) f(-1.0))
+
+;Десантник с мельтой
+("squad_with1types" side(bas) name(tact_ml) 		c(60) g(sq_2) c1(tactic_ml:1) b(squad2) t(melta inf_a_veh) level(1) cost(85) f(-1))
+
+;Десантник с ракетницей
+("squad_with2types" side(bas) name(tact_rl) 		c(60) g(sq_3) c1(tactic_rl) c2(tactic_bg:2) b(squad2) t(at inf_a_veh) level(1) cost(200) f(-1))
+
+;Десантник с плазмой
+("squad_with1types" side(bas) name(tact_pg) 		c(120) g(sq_4) c1(tactic_pg:3) b(squad2) t(plasma non) level(1) cost(200) f(-3.5))
+
+;Танкисты десантники
+("squad_with1types" side(bas) name(sm_crew)			c(120) 	g(sq_5) c1(tanker:4) b(squad2) t(tankman non) level(1) cost(140) f(-3.5))
+
+;Апотекарий - Отключен
+;("squad_with1types" side(bas) name(apothecary)		c(300) g(apothecary) c1(apothecary:1) b(squad2) t(apothecary) level(1) cost(120) f(0))
+
+;================================= Артиллерия =================================;
+;Вихрь
+{"ba_whirlwind" 						("v_1_i_1" c(300) c1(ba_whirlwind)	t(all veh_art) s(bas) n1(Tanker:4) cp(20) g(art_1) b(v2)) {level 1} {cost 400} {score 90} {fore -0.8}}
+
+;Орбитальный удар
+{"ba_orbital_strike"					("v_1_i_0" c(600) c1(orbital_strike)		t(all strike) s(bas) g(art_2) cp(0) b(v2)) {cost 500} {fore -1.8}}
+
+;Зажигательные ракеты
+{"ba_fire_wall_strike"					("v_1_i_0" c(300) c1(ba_fire_wall)			t(all strike) s(bas) g(art_3) cp(0) cw(0) b(v2)) {cost 300} {fore -0.8}}
+
+;Тарантул - Отключен
+;{"ba_drop_tarantul_hb"				("v_1_i_0" c(180) c1(ba_drop_tarantul_hb)	t(all) s(bas) g(tarantul_drop) cp(2) b(v2)) {cost 80} {fore 0}}
+;Тарантул - Отключен
+;{"ba_drop_tarantul_ml"				("v_1_i_0" c(240) c1(ba_drop_tarantul_ml)	t(all) s(bas) g(tarantul_drop) cp(2) b(v2)) {cost 200} {fore 0}}
+
+;================================= Лендспидеры =================================;
+;-----На усмотрение----------
+;Лендспидер - тяж. болтер
+;{"ba_landspeeder_hf"				("v_1_i_2" c(240) c1(ba_landspeeder_hf) t(all) s(bas) n1(Tanker:1) n2(Tanker:1) cp(5) g(lends_1) b(v3)) {level 1} {cost 160} {score 20} {fore 0.0}}
+
+;Лендспидер - штурмовая пушка
+;{"ba_landspeeder_hf_mm" 			("v_1_i_2" c(240) c1(ba_landspeeder_hf_mm) t(all) s(bas) n1(Tanker:1) n2(Tanker:1) cp(10) g(lends_2) b(v3)) {level 1} {cost 210} {score 20} {fore -1.25}}
+
+;Лендспидер - Ракеты
+;{"ba_landspeeder_hf_ml" 			("v_1_i_2" c(240) c1(ba_landspeeder_hf_ml) t(all) s(bas) n1(Tanker:1) n2(Tanker:1) cp(10) g(lends_3) b(v3)) {level 1} {cost 220} {score 20} {fore -1.25}}
+
+;Лендспидер - ракеты
+;{"ba_landspeeder_hb" 				("v_1_i_2" c(240) c1(ba_landspeeder_hb) t(all) s(bas) n1(Tanker:1) n2(Tanker:1) cp(10) g(lends_1) b(v3)) {level 1} {cost 200} {score 20} {fore 0}}
+
+;Лендспидер - ракеты
+;{"ba_landspeeder_hb_ml" 			("v_1_i_2" c(240) c1(ba_landspeeder_hb_ml) t(all) s(bas) n1(Tanker:1) n2(Tanker:1) cp(10) g(lends_2) b(v3)) {level 1} {cost 250} {score 20} {fore -1.25}}
+
+;Лендспидер - ракеты
+;{"ba_landspeeder_hb_ac" 			("v_1_i_2" c(240) c1(ba_landspeeder_hb_ac) t(all) s(bas) n1(Tanker:1) n2(Tanker:1) cp(10) g(lends_3) b(v3)) {level 1} {cost 260} {score 20} {fore -1.25}}
+
+;=================================Носороги и дредноуты=================================;
+;Носорог (Боезапас)
+{"ba_rhino" 										("v_1_i_1" c(120) c1(ba_rhino) t(all non) s(bas) n1(Tanker:2) cp(10) g(btr_1) b(v3)) {level 1} {cost 150} {score 25} {fore -1}}
+
+;Носорог - тяжелый болтер
+{"ba_razorback"									("v_1_i_1" c(120) c1(ba_razorback) 		t(all sup_a_inf) s(bas) n1(Tanker:4) g(btr_2) cp(10) b(v3)) {cost 200} {score 30} {fore -3.5}}
+
+;Носорог - штурмовая пушка
+{"ba_razorback_ac"								("v_1_i_1" c(120) c1(ba_razorback_ac) 		t(all sup_a_inf) s(bas) n1(Tanker:4) g(btr_3) cp(15) b(v3)) {cost 240} {score 30} {fore -3.5}}
+
+;Носорог - лазпушка
+{"ba_razorback_lc"								("v_1_i_1" c(240) c1(ba_razorback_lc) 		t(all sup_a_veh) s(bas) n1(Tanker:4) g(btr_4) cp(15) b(v3)) {cost 400} {score 35} {fore -1.25}}
+
+;======================================== Дредноуты 
+
+;Дредноут - штурмовая пушка
+{"ba_dreadnought_ac"					("v_1_i_0" c(300) c1(ba_dreadnought_ac) 	cp(15)	t(all veh_a_inf) s(bas) g(tank_1) b(v4)) {cost 300} {score 300} {fore -0.8}}
+
+;Дредноут - Мультимельта
+{"ba_dreadnought_mm"					("v_1_i_0" c(300) c1(ba_dreadnought_mm) 	cp(15)	t(all veh_a_veh) s(bas) g(tank_1) b(v4)) {cost 350} {score 350} {fore -0.8}}
+
+;Дредноут - Лазпушка
+{"ba_dreadnought_lc"					("v_1_i_0" c(300) c1(ba_dreadnought_lc) 	cp(15)	t(all veh_a_veh) s(bas) g(tank_2) b(v4)) {cost 400} {score 400} {fore -1.8}}
+
+;Почетный Дредноут - штурмовая пушка
+{"ba_dreadnought_venerable_ac"			("v_1_i_0" c(300) c1(ba_dreadnought_venerable_ac) 	cp(20)	t(all veh_a_inf) s(bas) g(tank_3) b(v4)) {cost 550} {score 550} {fore -0.8}}
+
+;Почетный Дредноут - Плазмопушка
+{"ba_dreadnought_venerable_pc"			("v_1_i_0" c(300) c1(ba_dreadnought_venerable_pc) 	cp(20)	t(all veh_a_all) s(bas) g(tank_3) b(v4)) {cost 550} {score 550} {fore -0.8}}
+
+;Почетный Дредноут - Лазпушка
+{"ba_dreadnought_venerable_lc"			("v_1_i_0" c(300) c1(ba_dreadnought_venerable_lc) 	cp(20)	t(all veh_a_veh) s(bas) g(tank_2) b(v4)) {cost 650} {score 650} {fore -1.8}}
+
+
+;Дредноут - Плазмопушка - Отключен
+;{"ba_dreadnought_pc"						("v_1_i_0" c(300) c1(ba_dreadnought_pc) 	cp(15)	t(all) s(bas) g(b62p) b(v4)) {cost 350} {score 350} {fore -0.8}}
+;=================================Хищники=================================;
+
+;Хищник - Баал
+{"ba_predator_baal"						("v_1_i_1" c(240) c1(ba_predator_baal) 		t(all veh_a_inf) s(bas) n1(Tanker:4) g(tank_4) cp(20) b(v5)) {cost 350} {score 350} {fore -1.25}}
+
+;Хищник - Баал огнеметы
+{"ba_predator_baal_fl"					("v_1_i_1" c(240) c1(ba_predator_baal_fl) 		t(all veh_a_inf) s(bas) n1(Tanker:4) g(tank_4) cp(20) b(v5)) {cost 400} {score 400} {fore -1.25}}
+
+;Хищник - автопушка
+{"ba_predator_autocannon"				("v_1_i_1" c(240) c1(ba_predator_autocannon) 		t(all veh_a_inf) s(bas) n1(Tanker:4) g(tank_4) cp(20) b(v5)) {cost 450} {score 450} {fore -1.25}}
+
+;Хищник - Плазмапушка
+{"ba_predator_baal_pc"					("v_1_i_1" c(240) c1(ba_predator_baal_pc) 		t(all veh_a_all) s(bas) n1(Tanker:4) g(tank_5) cp(20) b(v5)) {cost 600} {score 600} {fore -3.5}}
+
+;Хищник - лазпушка
+{"ba_predator_lascannon"				("v_1_i_1" c(240) c1(ba_predator_lascannon) 		t(all veh_a_veh) s(bas) n1(Tanker:4) g(tank_5) cp(20) b(v5)) {cost 500} {score 500} {fore -3.5}}
+
+;Хищник - лазпушка, спонсон (лазпушки)
+{"ba_predator_lascannon_lc"				("v_1_i_1" c(240) c1(ba_predator_lascannon_lc) 		t(all veh_a_veh) s(bas) n1(Tanker:4) g(tank_5) cp(20) b(v5)) {cost 600} {score 600} {fore -3.5}}
+
+;================================= Лендрейдеры =================================;
+
+;Лендрейдер - Искупитель
+{"ba_landraider_redeemer"								("v_1_i_1" c(600) c1(ba_landraider_redeemer) 		t(all ult) s(bas) n1(Tanker:6) cp(30) g(tank_6) b(v5)) {score 1000} {cost 1000} {fore -0.8}}
+
+;Лендрейдер - Фобос
+{"ba_landraider_phobos"									("v_1_i_1" c(600) c1(ba_landraider_phobos) 		t(all ult) s(bas) n1(Tanker:6) cp(30) g(tank_7) b(v5)) {score 1350} {cost 1350} {fore -0.8}}
+
+;Лендрейдер - Терминус Ультра
+{"ba_landraider_terminus_ultra"							("v_1_i_1" c(600) c1(ba_landraider_terminus_ultra) 		t(all ult) s(bas) n1(Tanker:6) cp(30) g(tank_8) b(v5)) {score 1800} {cost 1800} {fore -0.8}}
+
+;{"deathhammer_bas"					("v_1_i_1" c(920) c1(deathhammer_bas) 				t(all ult) s(bas) n1(Tanker:9) cp(40) g(tank_9) b(v5)) {score 2200} {cost 2200} {fore -0.5}}
+
+;============================Фальшионы========================================;
+;Фальшион
+{"deathhammer_bas"					("v_1_i_1" c(920) c1(deathhammer_bas) 				t(all ult) s(bas) n1(Tanker:9) cp(40) g(tank_9) b(v5)) {score 2200} {cost 2200} {fore -0.5}}
+
+
+
+
+;=================================Герои=================================;
+
+;Капелан
+("squad_with1types_vehicle" side(bas) name(chaplain)	c(300) g(h_1) v1(ba_drop_pod) c1(chaplain:1) b(hero) t(chaplain inf_a_inf) level(3) cost(1) f(-0.8))
+
+;Технодесантник
+("squad_with1types_vehicle" side(bas) name(tech_marine)	c(240) g(h_2) v1(ba_drop_pod) c1(tech_marine:1) b(hero) t(tech_marine non) level(3) cost(1) f(-0.8))
+
+;Библиарий
+("squad_with1types_vehicle" side(bas) name(librarians)	c(280) g(h_3) v1(ba_drop_pod) c1(librarians:1) b(hero) t(librarians inf_def) level(3) cost(1) f(-0.8))
+
+
+;Тактический Отряд - подкрепление за СП
+("squad_with3types_vehicle" side(bas) name(sq_tact_bg_drop_hero) 				c(300) g(h_4) v1(ba_drop_pod) c1(tactic_bg:4) c2(tactic_serg_bg:1) c3(apothecary:1) b(hero) t(bolter par) level(1) cost(2) f(-0.8))
+
+;Хищник - Баал
+{"ba_predator_baal_castom"					("v_1_i_1" c(300) c1(ba_predator_baal_castom) 		t(all veh_a_inf) s(bas) n1(Tanker:4) g(h_3) cp(20) b(hero)) {cost 3} {score 300} {fore -0.8}}
+
+
+;Терминаторы - Циклон
+{"ba_terminators_squad_1"							("v_1_i_0" c(480) c1(ba_terminators_squad_1) 	t(all par) s(bas) g(h_4) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
+
+;Терминаторы - Огнемет
+{"ba_terminators_squad_2"							("v_1_i_0" c(480) c1(ba_terminators_squad_2)		t(all par) s(bas) g(h_4) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
+
+;Терминаторы - Штурмпушка
+{"ba_terminators_squad_3"							("v_1_i_0" c(480) c1(ba_terminators_squad_3)		t(all par) s(bas) g(h_4) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
+
+;Терминатор c ракетной установкой Циклон - Отключен
+;Терминаторы - 2 штормболтер
+;{"ba_terminators_squad_1_ml"							("v_1_i_0" c(480) c1(ba_terminators_squad_1_ml) 		t(all) s(bas) g(t04) cp(30) b(hero)) {cost 5} {score 500} {fore -1.25}}
+;Терминаторы - штормболтер, штурмовая пушка (энергетический кулак)
+;{"ba_terminators_squad_2_ml"							("v_1_i_0" c(480) c1(ba_terminators_squad_2_ml) 		t(all) s(bas) g(t04) cp(30) b(hero)) {cost 7} {score 700} {fore -1.25}}
+;Терминаторы - штормболтер, тяж. огнемет (энергетический кулак)
+;{"ba_terminators_squad_3_ml"							("v_1_i_0" c(480) c1(ba_terminators_squad_3_ml) 	t(all) s(bas) g(t04) cp(30) b(hero)) {cost 7} {score 700} {fore -1.25}}
+
+;======= Не удалять ! - объявление техники для дальнейшего спавна
+;======= Спавнеры
+;Терминаторы 
+{"ba_terminator_sb"						("v_1_i_0" c(0) c1(ba_terminator_sb) t(all non) s(bas) g(term_non) cp(6) cw(1) b(non)) {cost 1} {fore 1}}
+
+{"ba_terminator_sb_ml"					("v_1_i_0" c(0) c1(ba_terminator_sb_ml) t(all non) s(bas) g(term_non) cp(6) cw(1) b(non)) {cost 1} {fore 1}}
+
+{"ba_terminator_ac"						("v_1_i_0" c(0) c1(ba_terminator_ac) t(all non) s(bas) g(term_non) cp(6) cw(1) b(non)) {cost 1} {fore 1}}
+
+{"ba_terminator_ac_ml"					("v_1_i_0" c(0) c1(ba_terminator_ac_ml) t(all non) s(bas) g(term_non) cp(6) cw(1) b(non)) {cost 1} {fore 1}}
+
+{"ba_terminator_fl"						("v_1_i_0" c(0) c1(ba_terminator_fl) t(all non) s(bas) g(term_non) cp(6) cw(1) b(non)) {cost 1} {fore 1}}
+
+{"ba_terminator_fl_ml"					("v_1_i_0" c(0) c1(ba_terminator_fl_ml) t(all non) s(bas) g(term_non) cp(6) cw(1) b(non)) {cost 1} {fore 1}}
+
+;Тарантул
+{"ba_tarantula_hb"						("v_1_i_0" c(0) c1(ba_tarantula_hb)	t(all non) s(bas) g(tarantul_hb) cp(2) b(non)) {cost 1} {fore 0}}
+
+;Тарантул
+{"ba_tarantula_ml"						("v_1_i_0" c(0) c1(ba_tarantula_ml)	t(all non) s(bas) g(tarantul_ml) cp(2) b(non)) {cost 1} {fore 0}}
+
+
+
+ 
+;Ботовские приколы
+
+;Отряд тактичек
+("squad_with1types" side(bas) name(sq_tact_bg_bot) 				c(30) g(squad_99) c1(w_bot_tactic_bg:5) b(squad_99) t(bolter free_inf_com) level(1) cost(40) f(-17))
+
+;Отряд с ракетницей
+("squad_with2types" side(bas) name(tact_rl_bot) 		c(35) g(squad_99) c1(w_bot_tactic_rl:1) c2(w_bot_tactic_bg:2) b(squad_99) t(at free_inf_a_veh) level(1) cost(60) f(-17))
+
+;Дред и разорбек
+{"ba_razorback_lc_bot"						("v_1_i_1" c(60) c1(ba_razorback_lc) t(all free_veh_a_all) s(bas) n1(Tanker:4) g(squad_99) cp(4) b(squad_99)) {cost 90} {score 1} {fore -9}}
+{"ba_dreadnought_ac_bot"					("v_1_i_0" c(60) c1(ba_dreadnought_ac) cp(6) t(all free_veh_a_all) s(bas) g(squad_99) b(squad_99)) {cost 180} {score 1} {fore -9}}

@@ -1,0 +1,84 @@
+﻿
+
+
+;Отряд P1 
+("squad_with2types" side(cis) name(sq_b1_droid) 	c(0) g(b1) c1(b1_serg:1) c2(b1_droid:9) b(squad1) t(blaster) level(1) cost(15) f(1))
+
+;Отряд P1 
+("squad_with3types" side(cis) name(sq_b1_gl) 		c(0) g(b1) c1(b1_serg_01:1) c2(b1_gl:4) c3(b1_droid:5) b(squad1) t(blaster) level(1) cost(35) f(1))
+
+;Отряд P1 
+("squad_with4types" side(cis) name(sq_b1_shturm) 	c(0) g(b1) c1(b1_serg:1) c2(B1_mgun:2) c3(B1_rifle:3) c4(b1_droid:4) b(squad1) t(blaster) level(1) cost(30) f(1))
+
+
+;Отряд P2
+("squad_with5types" side(cis) name(sq_b1_guard) 	c(1) g(b1_2) c1(b1_guard_leader:1) c2(b1_guard:5) c3(b1_guard_mgun:1) c4(b1_guard_rl:2) c5(b1_guard_sniper:1)  b(squad1) t(blaster) level(1) cost(60) f(-299))
+
+;Отряд
+("squad_with2types" side(cis) name(sq_bx_droid) 	c(120) g(bx_droid) c1(bx_droid:6) c2(bx_droid_rl:4) b(squad1) t(blaster) level(1) cost(220) f(-4))
+
+;Отряд
+("squad_with3types" side(cis) name(sq_bx_droid_shield) 	c(120) g(bx_droid) c1(bx_droid_shield:5) c2(bx_droid:3) c2(bx_droid_rl:2) b(squad1) t(blaster) level(1) cost(380) f(-4))
+
+
+;Отряд
+("squad_with2types" side(cis) name(sq_ig_100) 	c(300) g(ig_100) c1(IG-100_elite:6) c2(IG-100_elite_rl:3) c3(IG-100_elite_sniper:1) b(squad1) t(blaster) level(1) cost(220) f(-1))
+
+{"sp_battledroid"		("v_1_i_0" c(1) c1(sp_battledroid) 	cp(2)	t(all) s(cis) g(superdroid) b(squad1)) {cost 80} {score 50} {fore -599}}
+
+{"droideka"				("v_1_i_0" c(1) c1(droideka) 	cp(2)	t(all) s(cis) g(droideka) b(squad1)) {cost 150} {score 50} {fore -299}}
+
+
+;=================================Герои=================================;
+
+;Отряд Магностражи
+("squad_with2types" side(cis) name(sq_ig_100_hero) 	c(300) g(ig_100) c1(IG-100_droid:6) c2(IG-100_droid_rl:3) c3(IG-100_droid_sniper:1) b(hero) t(blaster) level(1) cost(2) f(0.5))
+
+("squad_with2types" side(cis) name(dooku)			c(1200) g(jedi) c1(dooku:1) b(hero) t(gedi) level(1) cost(1) f(1))
+
+;=================================Спецотряды=================================;
+
+;Дроид командир
+("squad_with1types" side(cis) name(sq_b1_com)	c(100) g(droid_com) c1(B1_command:1) b(squad3) t(flamer blaster) level(1) cost(20) f(-3))
+
+;Ракетница P1 
+("squad_with1types" side(cis) name(sq_b1_at)	c(1) g(droid_at) c1(B1_rl:1) b(squad3) t(at blaster) level(1) cost(30) f(-1))
+
+;Снайпер P1 
+("squad_with1types" side(cis) name(sq_b1_sr)	c(30) g(droid_sr) c1(b1_sniper:1) b(squad3) t(sniper blaster) level(1) cost(30) f(-9))
+
+
+{"stap"				("v_1_i_2" c(1) c1(stap) t(all) s(cis) n1(B1_pilot_speeder:1) g(s_1)  cp(5) b(squad3)) {level 1} {cost 90} {score 25} {fore -119}}
+
+{"droideka_sniper"	("v_1_i_0" c(1) c1(droideka_sniper) 	cp(2)	t(all) s(cis) g(droideka) b(squad3)) {cost 85} {score 50} {fore -299}}
+
+{"dwarf-droid"		("v_1_i_0" c(1) c1(dwarf-droid) 	cp(4)	t(all) s(cis) g(dwarf_droid) b(squad3)) {cost 185} {score 50} {fore -299}}
+
+
+
+
+;=================================Арта =================================;
+
+;Станковый пулемёт
+{"mark1_medium_blastmgun_red"	("v_1_i_2" c(60) c1(mark1_medium_blastmgun_red) t(all) s(cis) n1(b1_droid:1) g(b21) cp(2) b(v2)) {level 1} {cost 40} {score 10} {fore 1}}
+
+;Миномет
+{"cis_mortar"					("v_1_i_2" c(60) c1(cis_mortar) t(all) s(cis) n1(b1_droid:2) g(b24) cp(3) b(v2)) {level 1} {cost 140} {score 10} {fore 1}}
+
+
+
+{"snail_tank"			("v_1_i_0" c(30) c1(snail_tank) 	cp(4)	t(all) s(cis) g(b31) b(v3)) {cost 240} {score 50} {fore -3}}
+
+{"tri-droid"			("v_1_i_0" c(30) c1(tri-droid) 		cp(3)	t(all) s(cis) g(b32) b(v3)) {cost 185} {score 50} {fore -1}}
+
+{"og-9_homing_spider"	("v_1_i_0" c(60) c1(og-9_homing_spider) 	cp(4)	t(all) s(cis) g(b33) b(v3)) {cost 220} {score 50} {fore -1}}
+
+
+
+{"aat_tank"					("v_1_i_2" c(120) c1(aat_tank) n1(b1_tankman:1) n2(b1_tankman_2:3) 	cp(8)	t(all) s(cis) g(b41) b(v4)) {cost 240} {score 50} {fore -3}}
+
+{"aat_tank_elite"			("v_1_i_2" c(120) c1(aat_tank_elite) n1(b1_tankman:1) n2(b1_tankman_2:3) cp(8)	t(all) s(cis) g(b42) b(v4)) {cost 420} {score 50} {fore -1}}
+
+{"super-tank"				("v_1_i_2" c(120) c1(super-tank) n1(b1_tankman:1) n2(b1_tankman_2:3) 	cp(20)	t(all) s(cis) g(b43) b(v4)) {cost 1020} {score 50} {fore -4}}
+
+

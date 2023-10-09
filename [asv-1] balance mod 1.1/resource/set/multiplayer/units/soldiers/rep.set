@@ -1,0 +1,82 @@
+
+; ranger
+
+("soldier" breed(p1_clone_rifle) 		side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_clone_smg) 			side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_engineer) 			side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_fl) 				side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_fl_assistant) 		side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_jet) 				side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_jet_serg) 			side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_officer) 			side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_officer_rifle) 		side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_rl) 				side(rep) tags(p1 at) cp(2) score(1) cw(1))
+("soldier" breed(p1_rl_support) 		side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_serg) 				side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_serg_mgun) 			side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_serg_rifle) 		side(rep) tags(p1) cp(2) score(1) cw(1))
+("soldier" breed(p1_sniper) 			side(rep) tags(p1 sniper) cp(2) score(1) cw(1))
+
+
+("soldier" breed(p2_arc) 				side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_clone_hmgun) 		side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_clone_mgun) 		side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_clone_rifle) 		side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_clone_smg) 			side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_engineer) 			side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_gl) 				side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_jet) 				side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_jet_serg) 			side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_medic) 				side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_pilot_speeder) 		side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_rl) 				side(rep) tags(p2 at) cp(2) score(1) cw(1))
+("soldier" breed(p2_rl_support) 		side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_serg) 				side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_sniper) 			side(rep) tags(p2) cp(2) score(1) cw(1))
+
+("soldier" breed(p2_hmgun) 				side(rep) tags(p2) cp(2) score(1) cw(1))
+("soldier" breed(p2_hmgun_support) 		side(rep) tags(p2) cp(2) score(1) cw(1))
+
+("soldier" breed(p1_shadow_clone) 		side(rep) tags(p1) cp(4) score(1) cw(1))
+("soldier" breed(p2_shadow_clone) 		side(rep) tags(p2) cp(4) score(1) cw(1))
+
+;
+("soldier" breed(corusant_guard_rifle) 	side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+("soldier" breed(corusant_guard_rpg) 	side(rep) tags(veteran at) cp(2) score(1.5) cw(1))
+("soldier" breed(corusant_guard_serg) 	side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+("soldier" breed(corusant_guard_smg) 	side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+("soldier" breed(corusant_guard_sr) 	side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+
+("soldier" breed(elite_501_mgun) 		side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+("soldier" breed(elite_501_rifle) 		side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+("soldier" breed(elite_501_rpg) 		side(rep) tags(veteran at) cp(2) score(1.5) cw(1))
+("soldier" breed(elite_501_serg) 		side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+("soldier" breed(elite_501_smg) 		side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+("soldier" breed(elite_501_sr) 			side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+
+("soldier" breed(commando) 				side(rep) tags(veteran) cp(5) score(3) cw(1))
+("soldier" breed(commando_gr) 			side(rep) tags(veteran) cp(5) score(3) cw(1))
+("soldier" breed(commando_sniper) 		side(rep) tags(veteran) cp(5) score(3) cw(1))
+
+("soldier" breed(delta_38) 				side(rep) tags(veteran) cp(1) score(3) cw(1))
+("soldier" breed(delta_40) 				side(rep) tags(veteran) cp(1) score(3) cw(1))
+("soldier" breed(delta_62) 				side(rep) tags(veteran) cp(1) score(3) cw(1))
+("soldier" breed(delta_07) 				side(rep) tags(veteran) cp(1) score(3) cw(1))
+
+("soldier" breed(sturmovik) 			side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+("soldier" breed(sturmovik_gl) 			side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+("soldier" breed(sturmovik_rpg) 		side(rep) tags(veteran at) cp(2) score(1.5) cw(1))
+("soldier" breed(sturmovik_mgun) 		side(rep) tags(veteran) cp(2) score(1.5) cw(1))
+
+; Танкист
+("soldier" breed(pilot) 				side(rep) tags(tankman) cp(0) score(1) cw(1))
+("soldier" breed(p1_pilot_speeder) 		side(rep) tags(tankman) cp(0) score(1) cw(1))
+("soldier" breed(p2_pilot_speeder) 		side(rep) tags(tankman) cp(0) score(1) cw(1))
+("soldier" breed(tankman) 				side(rep) tags(tankman) cp(0) score(1) cw(1))
+("soldier" breed(tankman_01) 			side(rep) tags(tankman) cp(0) score(1) cw(1))
+("soldier" breed(tankman_02) 			side(rep) tags(tankman) cp(0) score(1) cw(1))
+
+("soldier" breed(wookie) 				side(rep) tags(veteran) cp(1) score(1) cw(1))
+("soldier" breed(wookie_2) 				side(rep) tags(veteran) cp(1) score(1) cw(1))
+
+

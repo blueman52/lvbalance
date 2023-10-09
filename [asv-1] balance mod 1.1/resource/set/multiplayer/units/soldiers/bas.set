@@ -1,0 +1,136 @@
+﻿
+;-------------------------------bas---------------------------------
+
+;БОТ
+("spacemarine" breed(w_bot_tactic_bg) 	side(bas) tags(bolter) cp(2) score(25) cw(1))
+("spacemarine" breed(w_bot_tactic_rl) 	side(bas) tags(at) cp(2) score(25) cw(1))
+
+;Скаут - дробовик
+("soldier" breed(scout_sg)  side(bas) tags(shotgun) 	cp(2) score(25) cw(1))
+
+;Скаут - болтер
+("soldier" breed(scout_bg)  side(bas) tags(bolter) 	cp(2) score(25) cw(1))
+("soldier" breed(scout_bg_01)  side(bas) tags(bolter) 	cp(2) score(25) cw(1))
+
+;Скаут - РПГ
+("soldier" breed(scout_rl)  side(bas) tags(at) 	 cp(2) score(25) cw(1))
+
+;Скаут - гранатомет
+("soldier" breed(scout_gl) side(bas) tags(grenade) cp(2) score(25) cw(1))
+
+;Скаут - снайпер
+("soldier" breed(scout_sr) side(bas) tags(sniper)  cp(2) score(25) cw(1))
+
+;Скаут - сержант
+("soldier" breed(scout_serg_bg) side(bas) tags(bolter) 	cp(2) score(25) cw(1))
+("soldier" breed(scout_serg_sg)	side(bas) tags(bolter)	cp(2) score(25) cw(1))
+("soldier" breed(scout_serg_gl)	side(bas) tags(bolter)	cp(2) score(25) cw(1))
+("soldier" breed(scout_serg_sr) side(bas) tags(sniper) 	cp(2) score(25) cw(1))
+("soldier" breed(scout_serg_hb) side(bas) tags(bolter) 	cp(2) score(25) cw(1))
+
+;Тактикал
+("spacemarine" breed(tactic_vet_serg_bg) 	side(bas) tags(bolter) cp(3) score(50) cw(1))
+("spacemarine" breed(tactic_vet_serg_bgp) 	side(bas) tags(bolter) cp(3) score(50) cw(1))
+("spacemarine" breed(tactic_vet_serg_bgm) 	side(bas) tags(bolter) cp(3) score(50) cw(1))
+
+
+("spacemarine" breed(tactic_bg) 	side(bas) tags(bolter) cp(3) score(50) cw(1))
+("spacemarine" breed(tactic_bg_01) 	side(bas) tags(bolter) cp(3) score(50) cw(1))
+
+("spacemarine" breed(tactic_vet_serg_gp) side(bas) tags(bolter) cp(3) score(50) cw(1))
+
+;Тактикал - огнемет
+("spacemarine" breed(tactic_fl) side(bas) tags(flamer) cp(4) score(85) cw(1))
+
+;Тактикал - РПГ
+("spacemarine" breed(tactic_rl) side(bas) tags(at) cp(4) score(85) cw(1))
+
+;Тактикал - мельта 
+("spacemarine" breed(tactic_ml) side(bas) tags(melta at) cp(4) score(85) cw(1))
+
+;Тактикал - плазма
+("spacemarine" breed(tactic_pg) side(bas) tags(plasma) cp(4) score(85) cw(1))
+
+;Тактикал - сержант
+("spacemarine" breed(tactic_serg_bg) side(bas) tags(bolter) cp(4) score(50) cw(1))
+
+;Тактикал - охотник
+("spacemarine" breed(tactic_hunter) side(bas) tags(hunter) cp(3) score(100) cw(1))
+
+;Опустошители - тяж.болтер
+("spacemarine" breed(dev_hb) side(bas) tags(heavy_bolter) cp(7) score(80) cw(1))
+
+;Опустошители - мультимельта
+("spacemarine" breed(dev_mm) side(bas) tags(multimelta at) cp(7) score(100) cw(1))
+
+;Опустошители - плазмапушка
+("spacemarine" breed(dev_pc) side(bas) tags(plasma_cannon) cp(7) score(200) cw(1))
+
+;Опустошители - лазпушка
+("spacemarine" breed(dev_lc) side(bas) tags(lascannon) cp(7) score(100) cw(1))
+
+;Опустошители - гравган
+("spacemarine" breed(dev_grav) side(bas) tags(gravgun special) cp(7) score(400) cw(1))
+
+;Опустошители ветеран - плазмапушка
+("spacemarine" breed(dev_vet_pc) side(bas) tags(plasma_cannon veteran) cp(7) score(200) cw(1))
+
+;Штурмовик
+("spacemarine" breed(assault_bg) side(bas) tags(bolter) cp(4) score(70) cw(1))
+
+;Штурмовик - огнемет
+("spacemarine" breed(assault_fl) side(bas) tags(flamer) cp(4) score(70) cw(1))
+
+;Штурмовик - мельта
+("spacemarine" breed(assault_ml) side(bas) tags(melta at) cp(4) score(70) cw(1))
+
+;Штурмовик - плазма
+("spacemarine" breed(assault_pg) side(bas) tags(plasma) cp(4) score(70) cw(1))
+
+;Штурмовик Ветеран
+("spacemarine" breed(assault_serg) side(bas) tags(bolter veteran) cp(4) score(85) cw(1))
+
+;Ветеран
+("spacemarine" breed(tactic_vet_bg) side(bas) tags(bolter veteran) cp(4) score(85) cw(1))
+
+;Ветеран
+("spacemarine" breed(tactic_vet_bg_sb) side(bas) tags(bolter) cp(4) score(85) cw(1)) ;Вопрос
+
+;Ветеран - РПГ
+("spacemarine" breed(tactic_vet_rl) side(bas) tags(at veteran) cp(5) score(85) cw(1))
+
+;Ветеран - мельта
+("spacemarine" breed(tactic_vet_ml) side(bas) tags(melta at veteran) cp(5) score(85) cw(1))
+
+;Ветеран - плазма
+("spacemarine" breed(tactic_vet_pg) side(bas) tags(plasma veteran) cp(5) score(85) cw(1))
+
+;Ветеран - охотник
+("spacemarine" breed(tactic_vet_hunter) side(bas) tags(sniper veteran) cp(4) score(100) cw(1))
+
+;Ветеран - гравган
+("spacemarine" breed(tactic_vet_gravi) side(bas) tags(gravgun special veteran) cp(5) score(85) cw(1))
+
+;Ветеран - сержант
+("spacemarine" breed(tactic_vet_serg_hunter) side(bas) tags(bolter veteran) cp(4) score(85) cw(1)) ;вопрос
+
+;Ветеран - сержант
+("spacemarine" breed(tactic_vet_serg_bg) side(bas) tags(bolter veteran) cp(4) score(85) cw(1)) 
+
+;Капелан
+("spacemarine" breed(chaplain) side(bas) tags(bolter chaplain special) cp(7) score(200) cw(1))
+
+;Библиарий
+("spacemarine" breed(librarians) side(bas) tags(psyker special) cp(7) score(200) cw(1))
+
+;Апотекарий
+("spacemarine" breed(apothecary) side(bas) tags(apothecary) cp(3) score(50) cw(1))
+
+;Танкисты 
+("soldier" breed(tanker) side(bas) tags(bolter tankman) cp(2) score(40) cw(1))
+
+;Танкисты - скауты
+("soldier" breed(tanker_scout) side(bas) tags(bolter tankman) cp(1.25) score(1.0) cw(1))
+
+;Технодесантник
+("spacemarine" breed(tech_marine) side(bas) tags(bolter) cp(7) score(100) cw(1))

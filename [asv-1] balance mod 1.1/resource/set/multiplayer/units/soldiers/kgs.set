@@ -1,0 +1,76 @@
+
+;-------------------------------Krieg------------------------------------------
+
+;Дробовик-Shotgun Breed
+("soldier" breed(ig_sg) side(kgs) tags(shotgun) cp(0.5) score(0.35) cw(1))
+
+;Лазган
+("soldier" breed(ig_lg) side(kgs) tags(lasgun) cp(0.5) score(0.35) cw(1))
+("soldier" breed(ig_lg_01) side(kgs) tags(lasgun) cp(0.5) score(0.35) cw(1))
+
+;Огнемет
+("soldier" breed(ig_fl) side(kgs) tags(flamer) cp(0.5) score(0.35) cw(1))
+
+;Гренадеры
+("soldier" breed(ig_grenader_hg) side(kgs) tags(hellgun) cp(1) score(3) cw(1))
+("soldier" breed(ig_grenader_pg) side(kgs) tags(plasma) cp(1) score(3) cw(1))
+("soldier" breed(ig_grenader_ml) side(kgs) tags(melta at) cp(1) score(3) cw(1))
+("soldier" breed(ig_gl) side(kgs) tags(grenade) cp(1) score(3) cw(1))
+
+;Тяж.болтер-Heavy Weapons Breed
+("soldier" breed(ig_ac) side(kgs) tags(autocannon) cp(1) score(0.35) cw(1))
+("soldier" breed(ig_stb) side(kgs) tags(stabber) cp(1) score(0.35) cw(1))
+("soldier" breed(ig_hb) side(kgs) tags(heavy_bolter) cp(1) score(0.35) cw(1))
+
+;Мельта
+("soldier" breed(ig_ml) side(kgs) tags(melta at) cp(0.5) score(0.35) cw(1))
+
+;РПГ
+("soldier" breed(ig_rl) side(kgs) tags(at) cp(0.5) score(0.35) cw(1))
+
+;Плазма
+("soldier" breed(ig_pg) side(kgs) tags(plasma) cp(0.5) score(0.35) cw(1))
+
+;Корректировщик
+("soldier" breed(ig_officer) side(kgs) tags(bolter spotter) cp(0.5) score(1) cw(1))
+("soldier" breed(ig_officer_raz) side(kgs) tags(spotter) cp(0.5) score(1) cw(1))
+
+;Разведчик
+("soldier" breed(ig_raz) side(kgs) tags(spotter) cp(0.5) score(0.44) cw(1))
+
+;Снайпер
+("soldier" breed(ig_sr) side(kgs) tags(sniper) cp(0.5) score(0.44) cw(1))
+
+;Сержант
+("soldier" breed(ig_lider) side(kgs) tags(bolter) cp(1) score(0.35) cw(1))
+("soldier" breed(ig_lider_01) side(kgs) tags(bolter) cp(1) score(0.35) cw(1))
+
+;Ветеран
+("soldier" breed(ig_vet_lg) side(kgs) tags(lasgun veteran) cp(1) score(1) cw(1))
+("soldier" breed(ig_vet_lg_01) side(kgs) tags(lasgun veteran) cp(1) score(1) cw(1))
+("soldier" breed(ig_vet_lg_02) side(kgs) tags(lasgun veteran) cp(1) score(1) cw(1))
+
+;Ветеран - тяж.болтер
+("soldier" breed(ig_vet_hb) side(kgs) tags(heavy_bolter veteran) cp(1) score(1) cw(1))
+("soldier" breed(ig_vet_ac) side(kgs) tags(autocannon veteran) cp(1) score(1) cw(1))
+
+;Ветеран - мельта
+("soldier" breed(ig_vet_ml) side(kgs) tags(melta at veteran) cp(1) score(1) cw(1))
+
+;Ветеран - плазма
+("soldier" breed(ig_vet_pg) side(kgs) tags(plasma veteran) cp(1) score(1) cw(1))
+
+;Ветеран - оператор вокса
+("soldier" breed(ig_vet_vox) side(kgs) tags(lasgun vox veteran) cp(1) score(1) cw(1))
+
+;Техножрец
+("soldier" breed(ig_engener1) 		side(kgs) tags(engener) cp(5) score(10) cw(1)) 
+("soldier" breed(ig_engener2) 		side(kgs) tags(engener) cp(5) score(10) cw(1))
+
+;Генерал-Командор
+("soldier" breed(ig_command) 	side(kgs) tags(bolter) 	cp(1) score(1) cw(1))
+
+;Танкист
+("soldier" breed(tanker) 		side(kgs) tags(lasgun tankman) cp(0) 	score(0.1) cw(1))
+
+

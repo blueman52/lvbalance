@@ -1,0 +1,120 @@
+﻿;Отряд Культистов с автоганами
+("squad_with2types" side(dgs) name(sq_rn_ag) 					c(10) g(squad_1) c1(rn_ag:5) c2(rn_ag_01:5)  b(squad1) t(autogun inf_com) level(1) cost(30) f(1.0))
+
+;Отряд Еретиков c лазганами
+("squad_with2types" side(dgs) name(sq_rn_lg) 					c(40) g(squad_2) c1(rn_lg:9) c2(rn_gl_01:1)  b(squad1) t(lasgun grenade inf_com) level(1) cost(100) f(1))
+
+;Тактический Отряд
+("squad_with2types" side(dgs) name(sq_tact_bg) 			c(60) g(squad_3) c1(tactic_bg_serg:1)  c2(tactic_bg_01:4)  b(squad1) t(bolter inf_tac) level(1) cost(250) f(1))
+
+;Чумные десантники 
+("squad_with4types" side(dgs) name(sq_tact_vet_bg) 		c(300) g(squad_4) c1(tactic_vet_lider_plasma:1) c2(tactic_vet_sb:1) c3(tactic_vet_bg_01:3) c4(tactic_vet_bg_01:1) b(squad1) t(bolter inf_vet) level(1) cost(500) f(1))
+
+;Чумные десантники - плазмаоружие
+("squad_with4types" side(dgs) name(sq_tact_vet_pg) 		c(300) g(squad_4) c1(tactic_vet_bg:2) c2(tactic_vet_lider_plasma:1)  c3(tactic_vet_pg:2)   c4(tactic_vet_sb:1)  b(squad1) t(plasma inf_vet) level(1) cost(500) f(1))
+
+;Избранные десантники нургла
+("squad_with4types" side(dgs) name(sq_tact_elite) 		c(300) g(squad_5) c1(tactic_elite_bg:2) c2(tactic_elite_bg_01:2) c3(tactic_elite_pg:1) c4(tactic_elite_ac:1) b(squad1) t(bolter inf_vet) level(1) cost(700) f(1))
+
+;=================================Одиночные бойцы=================================;
+;Десантник с желчеметом
+("squad_with1types" side(dgs) name(tact_pfl)  			c(60) g(sq_1) c1(tactic_pfl:1)  b(squad2) t(grenade inf_a_inf) level(1) cost(50) f(1))
+
+;Десантник с гранатомётом
+("squad_with1types" side(dgs) name(tact_gl)  			c(60) g(sq_3) c1(tactic_gl:1)  b(squad2) t(grenade inf_a_inf) level(1) cost(85) f(1))
+
+;Десантник с ракетницей
+("squad_with1types" side(dgs) name(tact_rl)  			c(60) g(sq_4) c1(tactic_rl:1)  b(squad2) t(at inf_a_veh) level(1) cost(85) f(1))
+
+;Десантник с плазмой
+("squad_with1types" side(dgs) name(tact_pg)  			c(120) g(sq_5) c1(tactic_pg:1)  b(squad2) t(plasma inf_a_inf) level(1) cost(150) f(1))
+
+;Танкситы десантники
+("squad_with1types" side(dgs) name(tact_crew) 			c(120) g(sq_6) c1(tanker:4) b(squad2) t(tankman non) level(1) cost(75) f(1))
+
+;====================Арта===========================================================
+;Заражение области(яд)
+{"nurgle_strike"							("v_1_i_0" c(300) c1(nurgle_strike) 			t(all attack) s(dgs) g(art_1) cp(0) b(v2)) {cost 300} {fore 1}}
+
+;Заражение области(биобомба)
+{"nurgle_strike_biobomba"					("v_1_i_0" c(300) c1(nurgle_strike_biobomba) 	t(all attack) s(dgs) g(art_2) cp(0) b(v2)) {cost 400} {fore 1}}
+
+;=================================Орудия поддержки=================================;
+
+;Разорители с тяж болтером
+("squad_with2types" side(dgs) name(dev_hb) 				c(120) g(hw_1) c1(dev_hb:1)  c2(tactic_bg:2) b(squad3) t(heavy_bolter inf_a_inf) level(1) cost(190) f(1))
+
+;Разорители с автопушкой
+("squad_with2types" side(dgs) name(dev_ac) 				c(120) g(hw_2) c1(dev_ac:1)  c2(tactic_bg:2) b(squad3) t(heavy_bolter inf_a_inf) level(1) cost(260) f(1))
+
+;Разорители с Чумным ракетометом 
+("squad_with2types" side(dgs) name(dev_prl) 			c(120) g(hw_3) c1(dev_prl:1)  c2(tactic_bg:2) b(squad3) t(at inf_a_veh) level(1) cost(200) f(1))
+
+;Тяж. лазпушка
+{"nurgle_heavy_lascannon"							("v_1_i_1" c(120) c1(nurgle_heavy_lascannon) t(all non) s(dgs) n1(rn_tanker:2) g(hw_4) cp(2) b(squad3)) {level 1} {cost 130} {score 5} {fore 1}}
+
+;=================================Чумной Волк, Дьявольский пёс=================================;
+;Дрон
+{"chaos_drone"										("v_1_i_0" c(60) c1(chaos_drone) 	cp(5)	t(all sup_sc) s(dgs) g(senth_1) b(v3)) {cost 90} {score 20} {fore 1}}
+
+;Химера
+{"nurgle_chimera_defiled"							("v_1_i_1" c(120) c1(nurgle_chimera_defiled) t(all sup_a_all) s(dgs) n1(rn_tanker:4)  g(btr_1) cp(10) b(v3)) {level 1} {cost 120} {score 25} {fore 1}}
+
+;Чумной Волк
+{"nurgle_banewolf"									("v_1_i_1" c(120) c1(nurgle_banewolf) t(all sup_a_all) s(dgs) n1(rn_tanker:4)  g(btr_2) cp(10) b(v3)) {level 1} {cost 115} {score 25} {fore 1}}
+
+;Дьявольский пёс - болтер 
+{"nurgle_devil_dog_hb"								("v_1_i_1" c(120) c1(nurgle_devil_dog_hb) t(all sup_a_all) s(dgs) n1(rn_tanker:4)  g(btr_3) cp(10) b(v3)) {level 1} {cost 200} {score 25} {fore 1}}
+
+;=================================Носорог=================================;
+
+;Носорог (Боезапас)
+{"plague_rhino" 									("v_1_i_1" c(120) c1(plague_rhino) 			t(all non) s(dgs) n1(tanker:2) cp(10) g(btr_4) b(v3)) {level 1} {cost 200} {score 25} {fore 1}}
+
+;Носорог - тяжелый болтер
+{"plague_razorback"									("v_1_i_1" c(120) c1(plague_razorback) 		t(all sup_a_inf) s(dgs) n1(tanker:4) g(btr_1) cp(15) b(v3)) {cost 200} {score 30} {fore 1}}
+
+;Носорог - лазпушка
+{"plague_razorback_lc"								("v_1_i_1" c(240) c1(plague_razorback_lc) 	t(all sup_a_veh) s(dgs) n1(tanker:4) g(btr_5) cp(15) b(v3)) {cost 400} {score 35} {fore 1}}
+
+;=================================Хищники  и Леман Русс=================================;
+
+;Хищник - автопушка
+{"plague_predator_ac"						("v_1_i_1" c(240) c1(plague_predator_ac) 		t(all veh_a_all) s(dgs) n1(tanker:4)  g(tank_1) cp(20) b(v4)) {cost 500} {score 55} {fore 1}}
+
+;Хищник - лазпушка
+{"plague_predator_lc"						("v_1_i_1" c(240) c1(plague_predator_lc) 		t(all veh_a_veh) s(dgs) n1(tanker:4)  g(tank_2) cp(25) b(v4)) {cost 600} {score 60} {fore 1}}
+
+;Чумной трактор, распылители
+{"plague_crawler_spit_vol"					("v_1_i_0" c(240) c1(plague_crawler_spit_vol) 	cp(25)	t(all attack) s(dgs) g(tank_4) b(v4)) {cost 500} {score 60} {fore -3}}
+
+;Чумной трактор, энтропийные пушки
+{"plague_crawler_entr_slug"					("v_1_i_0" c(240) c1(plague_crawler_entr_slug) 	cp(25)	t(all attack) s(dgs) g(tank_4) b(v4)) {cost 600} {score 60} {fore -3.5}}
+
+
+;=====================================Бенблейд==============================================;
+
+;Бейнблейд
+{"nurgle_baneblade"							("v_1_i_1" c(600) c1(nurgle_baneblade) t(all attack) s(dgs) n1(rn_tanker:12) g(tank_3) cp(30) b(v5)) {level 1} {cost 1250} {score 100} {fore 1}}
+
+;=================================Герои=================================;
+
+;Чемпион
+("squad_with4types" side(dgs) name(champion) 			c(300) g(h_1) c1(champion:1) c2(tactic_elite_bg:2) c3(tactic_elite_pg:1) c4(tactic_elite_bg_01:1)   b(hero) t(champion special inf_a_inf) level(1) cost(3) f(-0.8))
+
+;Хищник - лазпушка
+{"plague_predator_lc_f"						("v_1_i_1" c(240) c1(plague_predator_lc) 		t(all veh_a_veh) s(dgs) n1(tanker:4)  g(tank_233) cp(25) b(hero)) {cost 4} {score 60} {fore -3.5}}
+
+;Леман Русс - оскверненный
+{"nurgle_chaoslemanruss"					("v_1_i_1" c(300) c1(nurgle_chaoslemanruss) t(all veh_a_veh) s(dgs) n1(rn_tanker:6)  g(h_2) cp(20) b(hero)) {level 1} {cost 4} {score 50} {fore -0.8}}
+
+;Чумная Химера
+{"nurgle_chimera_blessed"							("v_1_i_2" c(300) c1(nurgle_chimera_blessed) t(all veh_a_inf) s(dgs) n1(rn_tanker:4) n2(rn_lg:6)  g(h_3) cp(10) b(hero)) {level 1} {cost 3} {score 25} {fore -0.8}}
+
+;Терминаторы
+{"dg_terminators_squad_1"					("v_1_i_0" c(300) c1(dg_terminators_squad_1) 	t(all des) s(dgs) g(h_4) cp(18) cw(1) b(hero)) {cost 4} {score 60} {fore -2.6}}
+
+;=========Не удалять===============
+
+;Терминаторы - 3 штормболтер
+{"csm_term_dg_non"							("v_3_i_0" c(480) c1(csm_term_dg) c2(csm_term_dg) c3(csm_term_dg)		t(all non) s(dgs) g(t04) cp(18) cw(1) b(non)) {cost 5} {score 60} {fore -1.25}}

@@ -1,0 +1,310 @@
+﻿;=================================Отряды=================================;
+
+;Отряд рядовых с лазганами 
+("squad_with4types" side(igs) name(sq_lg) 		c(30) g(sq_1) c1(serg_las:1) c2(ig_lg:3) c3(ig_lg_01:4) c4(ig_stb:2) b(squad1) t(lasgun inf_com) level(1) cost(25) f(1))
+
+;Отряд рядовых с плазмой
+("squad_with4types" side(igs) name(sq_pg) 		c(30) g(sq_2) c1(serg_las:1) c2(ig_lg:3) c3(ig_lg_01:4) c4(ig_pg:2) b(squad1) t(plasma inf_tac) level(1) cost(65) f(1))
+
+;Отряд рядовых с мельтой
+("squad_with4types" side(igs) name(sq_ml) 		c(30) g(sq_3) c1(serg_las:1) c2(ig_lg:3) c3(ig_lg_01:2) c4(ig_ml:4) b(squad1) t(melta inf_a_veh) level(1) cost(65) f(1))
+
+
+;Отряд ветеранов 
+("squad_with5types" side(igs) name(sq_vet_lg)	c(50) g(sq_4) c1(serg_plasma:1) c2(ig_vet_korrekt:1) c3(ig_vet_lg_01:4) c4(ig_vet_lg_02:2) c5(ig_vet_hg:2) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(80) f(-5))
+
+;Отряд ветеранов с плазмами
+("squad_with6types" side(igs) name(sq_vet_pg)	c(50) g(sq_4) c1(ig_vet_lg:1) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:2) c4(ig_vet_pg:3) c5(ig_vet_korrekt:1) c6(serg_plasma:1) b(squad1) t(lasgun_lasgun plasma inf_vet) level(1) cost(110) f(-5))
+
+;Отряд ветеранов с мельтами
+("squad_with6types" side(igs) name(sq_vet_ml)	c(50) g(sq_4) c1(ig_vet_lg:1) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:1) c4(ig_vet_ml:4) c5(ig_vet_korrekt:1) c6(serg_plasma:1) b(squad1) t(heavy_lasgun melta inf_a_veh) level(1) cost(100) f(-5))
+
+
+;Отряд штурмовиков
+("squad_with1types" side(igs) name(sq_storm)	c(300) g(sq_5) c1(ig_strom_hg:10) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(250) f(-0.8))
+
+;Огрины
+{"ogryn"	("f_4x1" c(300) c1(ogr1) c2(ogr2) c3(ogr3) c4(ogr1) t(all veh_a_inf) s(igs) g(sq_5) cp(12) b(squad1)) {level 1} {cost 250} {score 250} {fore -0.8}}
+
+;ig-Отряд СПО
+("squad_with3types" side(igs) name(igs_pdf_guard) 	c(120) g(squad_5) c1(pdf_ag_00:22) c2(plf_lg:6) c3(plf_lg_01:2) b(squad1) t(all inf_com) level(1) cost(50) f(1))
+
+;Огрины, инициализация
+{"ogr1"		("ID" c(0) c1(ogr1) t(all non) s(igs) g(non) cp(3) cw(1) b(non)) {level 1} {score 1} {fore 1}}
+{"ogr2"		("ID" c(0) c1(ogr2) t(all non) s(igs) g(non) cp(3) cw(1) b(non)) {level 1} {score 1} {fore 1}}
+{"ogr3"		("ID" c(0) c1(ogr3) t(all non) s(igs) g(non) cp(3) cw(1) b(non)) {level 1} {score 1} {fore 1}}
+
+;================================Спецотряды=================================;
+;Отряд c Гранатометами
+;ig-Отряд СПО
+;("squad_with3types" side(igs) name(igs_pdf_guard) 	c(30) g(squad_2) c1(pdf_ag_00:22) c2(plf_lg:6) c3(plf_lg_01:2) b(squad3) t(all inf_com) level(1) cost(1) f(1))
+
+("squad_with1types" side(igs) name(sq_gl)		c(30) g(squad_2) c1(ig_gl:4) b(squad3) t(lasgun inf_a_inf) level(1) cost(40) f(-1))
+
+;Огнемет
+("squad_with1types" side(igs) name(sq_fl)		c(30) g(squad_3) c1(ig_fl:4) b(squad3) t(plasma inf_a_all) level(1) cost(20) f(-1))
+
+;РПГ
+("squad_with1types" side(igs) name(sq_rl)		c(30) g(squad_4) c1(ig_rl:4) b(squad3) t(at inf_a_veh) level(1) cost(40) f(-3))
+
+
+;Снайперы
+("squad_with2types" side(igs) name(sq_sr) 			c(60) g(squad_5) c1(ig_vet_sr:6) c2(ig_vet_raz:4) b(squad3) t(sniper inf_sab) level(1) cost(100) f(-3))
+
+;Отряд инквизиции с псайкером
+;("squad_with2types" side(igs) name(sq_psyker) 		c(60) g(squad_7) c1(inquisition_lg:2) c2(inquisition_psyker:1) b(squad3) t(spotter inf_vet) level(1) cost(180) f(-3))
+
+;Корректировщики
+;("squad_with2types" side(igs) name(sq_korrekt) 	c(300) g(squad_8) c1(ig_vet_korrekt:2) c2(ig_vet_korrekt_01:1) b(squad3) t(spotter inf_def) level(1) cost(160) f(-0.8))
+
+
+;Инженеры
+("squad_with1types" side(igs) name(ig_engener1) 	c(240) g(engineer) c1(ig_engener1:1) b(squad3) t(all limit_2 inf_bld) level(1) cost(90) f(0.5))
+
+("squad_with1types" side(igs) name(ig_engener2) 	c(300) g(engineer) c1(ig_engener2:1) b(squad3) t(all limit_2 inf_bld) level(1) cost(180) f(-0.8))
+
+;Танкисты
+("squad_with1types" side(igs) name(crew) 			c(10) g(squad_9) c1(tanker_01:6) b(squad3) t(all tankman non) level(1) cost(10) f(-11))
+
+
+;Отряд c стабберами - На усмотрение
+("squad_with3types" side(igs) name(sq_stb)		c(30) g(squad_1) c1(ig_stb:4) b(squad3) t(lasgun) level(1) cost(50) f(-1))
+;Коммисар со свитой - На усмотрение-Command Squad
+;("squad_with8types" side(igs) name(sq_command) 		c(240) g(squad_6) c1(commissar_plp:1) c2(ig_strom_hg:1) c3(ig_strom_hg:1) c4(ig_vet_korrekt:2) c5(ig_vet_korrekt_01:1) c6(inquisition_lg:2) c7(inquisition_psyker:1) c8(vindicare:1)  b(squad3) t(spotter) level(1) cost(120) f(-1))
+;ig-Ассасин
+;("squad_with1types" side(igs) name(assassin) 		c(300) g(squad_6) c1(vindicare:1) b(hero) t(sniper special inf_sab) level(1) cost(1) f(-2.6))
+
+
+;================================= Часовые =================================;
+;Часовой - мультилазер
+{"sentinel_mul"								("v_1_i_1" c(120) c1(sentinel_mul) t(all sup_a_inf) s(igs) n1(tanker_01:1) g(sent_1) cp(5) b(sent)) {level 1} {cost 110} {score 25} {fore 0}}
+;Часовой - мельта
+{"sentinel_mm"								("v_1_i_1" c(120) c1(sentinel_mm) t(all sup_a_veh) s(igs) n1(tanker_01:1) g(sent_1) cp(5) b(sent)) {level 1} {cost 110} {score 25} {fore 0}}
+;Часовой - огнемет
+{"sentinel_fl"								("v_1_i_1" c(120) c1(sentinel_fl) t(all sup_a_all) s(igs) n1(tanker_01:1) g(sent_1) cp(5) b(sent)) {level 1} {cost 110} {score 25} {fore 0}}
+
+;Часовой - мультилазер, ракеты
+{"sentinel_mul_rl"							("v_1_i_1" c(120) c1(sentinel_mul_rl) t(all sup_a_inf) s(igs) n1(tanker_01:1) g(sent_2) cp(5) b(sent)) {level 1} {cost 140} {score 25} {fore 0}} 
+;Часовой - мельта, ракеты
+{"sentinel_mm_rl"							("v_1_i_1" c(120) c1(sentinel_mm_rl) t(all sup_a_veh) s(igs) n1(tanker_01:1) g(sent_2) cp(5) b(sent)) {level 1} {cost 140} {score 25} {fore 0}}
+;Часовой - огнемет, ракеты
+{"sentinel_fl_rl"							("v_1_i_1" c(120) c1(sentinel_fl_rl) t(all sup_a_all) s(igs) n1(tanker_01:1) g(sent_2) cp(5) b(sent)) {level 1} {cost 140} {score 25} {fore 0}}
+
+;Часовой - Автопушка
+{"sentinel_ac"								("v_1_i_1" c(120) c1(sentinel_ac) t(all sup_sct) s(igs) n1(tanker_01:1) g(sent_3) cp(5) b(sent)) {level 1} {cost 160} {score 25} {fore -1.5}}
+
+;Часовой - лазпушка
+{"sentinel_lc"								("v_1_i_1" c(120) c1(sentinel_lc) t(all sup_a_veh) s(igs) n1(tanker_01:1) g(sent_4) cp(5) b(sent)) {level 1} {cost 150} {score 25} {fore -3.5}}
+;Часовой - плазма
+{"sentinel_pc"								("v_1_i_1" c(120) c1(sentinel_pc) t(all sup_a_all) s(igs) n1(tanker_01:1) g(sent_5) cp(5) b(sent)) {level 1} {cost 200} {score 25} {fore -3.5}}
+
+;Часовой - Автопушка, ракеты - На усмотрение
+;{"sentinel_ac_rl"							("v_1_i_2" c(120) c1(sentinel_ac_rl) t(all) s(igs) n1(tanker_01:1) g(b12) cp(5) b(sent)) {level 1} {cost 200} {score 25} {fore -3.5}}
+;Часовой - лазпушка, ракеты - На усмотрение
+;{"sentinel_lc_rl"							("v_1_i_2" c(120) c1(sentinel_lc_rl) t(all) s(igs) n1(tanker_01:1) g(b11) cp(5) b(sent)) {level 1} {cost 180} {score 25} {fore -3.5}}
+;Часовой - плазма, ракеты - На усмотрение
+;{"sentinel_pc_rl"							("v_1_i_2" c(120) c1(sentinel_pc_rl) t(all) s(igs) n1(tanker_01:1) g(b16) cp(5) b(sent)) {level 1} {cost 230} {score 25} {fore -3.5}}
+;Часовой - Мельта Мультилазер - На усмотрение
+;{"sentinel_mm_mul"							("v_1_i_2" c(240) c1(sentinel_mm_mul) t(all) s(igs) n1(tanker_01:1) g(b12) cp(5) b(sent)) {level 1} {cost 130} {score 25} {fore 0}}
+;Часовой - Автопушка - На усмотрение
+;{"sentinel_custom"							("v_1_i_2" c(240) c1(sentinel_custom) t(all) s(igs) n1(tanker_01:1) g(b12) cp(5) b(sent)) {level 1} {cost 160} {score 25} {fore 0}}
+;=================================Артиллерия=================================;
+;Миномет
+{"ig_minomet"										("v_1_i_1" c(120) c1(ig_minomet) t(all non) s(igs) n1(ig_lg:2) g(art_1) cp(3) b(v2)) {level 1} {cost 75} {score 75} {fore -0}}
+
+;Реактивная мортира -выключен
+;{"reactive_mortar"									("v_1_i_1" c(300) c1(reactive_mortar) t(all non) s(igs) n1(ig_lg:2) g(art_2) cp(15) b(v2)) {level 1} {cost 215} {score 15} {fore 0}}
+
+;Квад-лаунчер
+;{"quad_launcher"									("v_1_i_1" c(150) c1(quad_launcher) t(all non) s(igs) n1(ig_lg:2) g(art_2) cp(7) b(v2)) {level 1} {cost 180} {score 20} {fore 0}}
+
+;Василиск
+{"basilisk"											("v_1_i_3" c(300) c1(basilisk) t(all veh_art) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) g(art_3) cp(15) b(v2)) {level 1} {cost 250} {score 40} {fore 0}}
+
+;Мантикора
+{"manticora" 										("v_1_i_3" c(300) c1(manticora) t(all veh_art) s(igs) n1(tanker:1) n2(tanker_01:1) n3(tanker:1) cp(20) g(art_4) b(v2)) {level 1} {cost 400} {score 50} {fore -0.8}}
+
+;Арт удар 
+;{"artillery_strike_ig"								("v_1_i_0" c(300) c1(artillery_strike)		t(all strike) s(igs) g(art_5) cp(0) b(v2)) {cost 300} {fore -0.8}}
+
+;Налёт Валькирии
+{"air_strike_ig_valkyrie_3"					("v_1_i_0" c(300) c1(air_strike_ig_valkyrie_3)			t(all strike) s(igs) g(art_6) cp(0) b(v2)) {cost 500} {fore -0.8}}
+
+;Бомбардировка Валькирии
+{"air_strike_ig_valkyrie_bombing"			("v_1_i_0" c(300) c1(air_strike_ig_valkyrie_bombing)	t(all strike) s(igs) g(art_7) cp(0) b(v2)) {cost 700} {fore -0.8}}
+
+;Сейсмический заряд
+{"igs_seismic_strike"					("v_1_i_0" c(300) c1(kinetic_projectile)			t(all strike) s(igs) g(art_8) cp(0) b(v2)) {cost 200} {fore -0.8}}
+
+;Тарантул - На усмотрение
+;{"ig_drop_tarantul_mul"					("v_1_i_0" c(180) c1(ig_drop_tarantul_mul)	t(all) s(igs) g(tarantul_drop) cp(2) b(v2)) {cost 80} {fore 0}}
+;Тарантул - На усмотрение
+;{"ig_drop_tarantul_hb"					("v_1_i_0" c(180) c1(ig_drop_tarantul_hb)	t(all) s(igs) g(tarantul_drop) cp(2) b(v2)) {cost 80} {fore 0}}
+;Тарантул - На усмотрение
+;{"ig_drop_tarantul_rl"					("v_1_i_0" c(480) c1(ig_drop_tarantul_rl)	t(all) s(igs) g(tarantul_drop) cp(2) b(v2)) {cost 200} {fore 0}}
+
+
+;Арт десант- ИГ - Отключен
+;{"ig_air_drop_1_plasmagun"							("v_1_i_0" c(120) c1(ig_air_drop_1_plasmagun)		t(all) s(igs) g(desant) cp(0) b(v2)) {cost 200} {fore -3.5}}
+;Арт десант- ИГ - Отключен
+;{"ig_air_drop_2_stormtrooper"						("v_1_i_0" c(300) c1(ig_air_drop_2_stormtrooper)		t(all) s(igs) g(desant) cp(0) b(v2)) {cost 11} {fore -1}}
+;Арт десант- ИГ - Отключен
+;{"ig_air_drop_2_kasrkin"							("v_1_i_0" c(300) c1(ig_air_drop_2_kasrkin)			t(all) s(igs) g(desant) cp(0) b(v2)) {cost 500} {fore -1}}
+;Арт десант- ИГ - Отключен
+;{"ig_air_drop_1_meltagun"							("v_1_i_0" c(300) c1(ig_air_drop_1_meltagun)		t(all) s(igs) g(desant) cp(0) b(v2)) {cost 200} {fore -1}}
+;Арт десант- ИГ - Отключен
+;{"ig_air_drop_1_lasgun"								("v_1_i_0" c(300) c1(ig_air_drop_1_lasgun)			t(all) s(igs) g(desant) cp(0) b(v2)) {cost 180} {fore -1}}
+;Грифон - Отключен
+;{"griffon"											("v_1_i_3" c(120) c1(griffon) t(all) s(igs) n1(tanker_01:1) n2(tanker:1) n3(tanker:1) cp(15) g(b21) b(v2)) {level 1} {cost 200} {score 25} {fore 0}}
+;=================================Орудия поддержки=================================;
+
+;Тяж. болтер (стаббер)
+{"heavy_weapon_bolter"								("v_1_i_1" c(120) c1(heavy_weapon_bolter) t(all non) s(igs) n1(ig_lg:2) g(hw_1) cp(2) b(v3)) {level 1} {cost 70} {score 10} {fore -0}}
+
+;Тяж. автопушка
+{"heavy_weapon_autocannon"							("v_1_i_1" c(120) c1(heavy_weapon_autocannon) t(all non) s(igs) n1(ig_lg:2) g(hw_2) cp(2) b(v3)) {level 1} {cost 100} {score 10} {fore -1.5}}
+
+;Тяж. лазпушка
+{"heavy_weapon_lascannon"							("v_1_i_1" c(120) c1(heavy_weapon_lascannon) t(all non) s(igs) n1(ig_lg:2) g(hw_3) cp(2) b(v3)) {level 1} {cost 130} {score 10} {fore -3.5}}
+
+;Мультилазер - На усмотрение
+{"heavy_weapon_multilaser"							("v_1_i_1" c(120) c1(heavy_weapon_multilaser) t(all non) s(igs) n1(ig_lg:2) g(hw_4) cp(2) b(v3)) {level 1} {cost 60 } {score 10} {fore -0}}
+
+;=================================Химеры, Адские гончи, Дьявольские псы, Гидры, Саламандры=================================;
+
+;Боеснабжение Троян
+{"trojan_igs"											("v_1_i_2" c(120) c1(trojan) t(all non) s(igs) n1(tanker:3) n2(tanker:1) g(btr_1) b(v4) cp(5)) {level 1} {cost 115} {score 25} {fore -3.5}}
+
+;Химера - ковш
+{"chimera_dozer_igs"									("v_1_i_3" c(120) c1(chimera_dozer) t(all sup_a_inf) s(igs) n1(tanker:1) n2(tanker_01:3) n3(ig_lg:6) cp(10) g(btr_1) b(v4)) {level 1} {cost 120} {score 25} {fore -3.5}}
+
+;Химера - болтер
+{"chimera_hb"										("v_1_i_3" c(120) c1(chimera_hb) t(all sup_a_inf) s(igs) n1(tanker:1) n2(tanker_01:3) n3(ig_lg:6) cp(10) g(btr_1) b(v4)) {level 1} {cost 130} {score 25} {fore -3.5}}
+
+;Адская гончая
+{"hellhound"										("v_1_i_3" c(120) c1(hellhound) t(all sup_a_veh) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) g(btr_2) cp(10) b(v4)) {level 1} {cost 160} {score 25} {fore -3.5}}
+
+;Дьявольский пёс - огнемет
+{"devil_dog_f"										("v_1_i_3" c(120) c1(devil_dog_f) t(all sup_a_all) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) g(btr_3) cp(10) b(v4)) {level 1} {cost 200} {score 25} {fore -3.5}}
+
+;Гидра 
+{"hydra"											("v_1_i_3" c(120) c1(hydra) t(all sup_a_all) s(igs) n1(tanker:1) n2(tanker_01:3) n3(tanker:1) g(btr_4) cp(10) b(v4)) {level 1} {cost 300} {score 50} {fore -3.5}}
+
+;Химера - Отключен
+;{"chimera"											("v_1_i_3" c(120) c1(chimera) t(all) s(igs) n1(tanker:1) n2(tanker_01:3) n3(ig_lg:6) cp(10) g(b41) b(v4)) {level 1} {cost 115} {score 25} {fore -3.5}}
+;Дьявольский пёс - болтер - Отключен
+;{"devil_dog_hb"										("v_1_i_3" c(120) c1(devil_dog_hb) t(all) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) g(b44) cp(10) b(v4)) {level 1} {cost 115} {score 25} {fore -3.5}}
+
+;=================================Леман Руссы=================================;
+
+;Леман Русс - Экстерминатор 
+{"lr_exterminator"							("v_1_i_4" c(120) c1(lr_exterminator) t(all sup_a_inf) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) g(tank_1) b(lr) cp(20)) {level 1} {cost 375} {score 50} {fore -3.5}}
+
+;Леман Русс - Экстерминатор - Лазпушка
+{"lr_exterminator_lc"						("v_1_i_4" c(120) c1(lr_exterminator_lc) t(all veh_a_veh) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) g(tank_1) b(lr) cp(20)) {level 1} {cost 435} {score 50} {fore -3.5}}
+
+;Леман Русс - Экстерминатор - Лазпушка спонсон (плазма)
+{"lr_exterminator_lc_p"					("v_1_i_4" c(120) c1(lr_exterminator_lc_p) t(all veh_a_all) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) g(tank_1) b(lr) cp(20)) {level 1} {cost 550} {score 50} {fore -3.5}}
+
+
+
+;Леман Русс
+{"lemanruss"								("v_1_i_4" c(120) c1(lemanruss) t(all veh_a_veh) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_2) b(lr)) {level 1} {cost 400} {score 50} {fore -3.5}}
+
+;Леман Русс - ковш
+{"lemanruss_scoop"							("v_1_i_4" c(120) c1(lemanruss_scoop) t(all veh_a_veh) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_2) b(lr)) {level 1} {cost 470} {score 50} {fore -3.5}}
+
+;Леман Русс - спонсон (плазма)
+{"lemanruss_hb_p"							("v_1_i_4" c(120) c1(lemanruss_hb_p) t(all veh_a_veh) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_2) b(lr)) {level 1} {cost 430} {score 50} {fore -3.5}}
+
+
+;Леман Русс - палач
+{"lr_executioner"							("v_1_i_4" c(120) c1(lr_executioner) t(all veh_a_all) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_3) b(lr)) {level 1} {cost 625} {score 50} {fore -8}}
+
+;Леман Русс - палач - ковш
+{"lr_executioner_s"							("v_1_i_4" c(120) c1(lr_executioner_s) t(all veh_a_all) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_3) b(lr)) {level 1} {cost 645} {score 50} {fore -8}}
+
+;Леман Русс - палач - Болтер, спонсон (плазма)
+{"lr_executioner_hb_p"						("v_1_i_4" c(120) c1(lr_executioner_hb_p) t(all veh_a_all) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) g(tank_3) b(lr) cp(20)) {level 1} {cost 700} {score 50} {fore -8}}
+
+
+;Леман Русс - покоритель
+{"lr_vanquisher"							("v_1_i_4" c(120) c1(lr_vanquisher) t(all veh_a_veh) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_4) b(lr)) {level 1} {cost 625} {score 50} {fore -8}}
+
+;Леман Русс - покоритель - ковш
+{"lr_vanquisher_s"							("v_1_i_4" c(120) c1(lr_vanquisher_s) t(all veh_a_veh) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_4) b(lr)) {level 1} {cost 645} {score 50} {fore -8}}
+
+;Леман Русс - покоритель - спонсон (плазма)
+{"lr_vanquisher_p"							("v_1_i_4" c(120) c1(lr_vanquisher_p) t(all veh_a_all) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_4) b(lr)) {level 1} {cost 700} {score 50} {fore -8}}
+
+
+;Малкадор- автопушки
+{"ig_malcador_ext"							("v_1_i_3" c(120) c1(ig_malcador_ext) t(all veh_a_inf) s(igs) n1(tanker:4) n2(tanker:1) n3(tanker:1) g(tank_5) b(v5) cp(25)) {level 1} {cost 600} {score 100} {fore -3.5}}
+
+;Малкадор- демолишер
+{"ig_malcador_def"							("v_1_i_3" c(120) c1(ig_malcador_def) t(all veh_a_all) s(igs) n1(tanker:4) n2(tanker:1) n3(tanker:1) g(tank_6) b(v5) cp(25)) {level 1} {cost 500} {score 100} {fore -3.5}}
+
+;Малкадор- охотник на танков
+{"ig_malcador_dstr"							("v_1_i_3" c(300) c1(ig_malcador_dstr) t(all veh_a_veh) s(igs) n1(tanker:4) n2(tanker:1) n3(tanker:1) g(tank_7) b(v5) cp(25)) {level 1} {cost 800} {score 100} {fore -2.6}}
+
+
+;Бейнблейд
+{"baneblade"								("v_1_i_3" c(300) c1(baneblade) t(all ult) s(igs) n1(tanker:6) n2(tanker_01:5) n3(commissar_tank:1) g(tank_8) b(v5) cp(30)) {level 1} {cost 1250} {score 100} {fore -2.6}}
+
+;Рыцарь
+{"knights_crusader_ig"						("v_1_i_0" c(920) c1(knights_crusader_ig) 	cp(25)	t(all ult) s(igs) g(tank_9) b(v5)) {cost 1400} {score 150} {fore -0.5}}
+;=================================Герои=================================;
+
+;ig-Отряд СПО
+;("squad_with3types" side(igs) name(igs_pdf_guard) 	c(240) g(h_1) c1(pdf_ag_00:22) c2(plf_lg:6) c3(plf_lg_01:2) b(hero) t(all inf_com) level(1) cost(1) f(0))
+
+;Коммисар со свитой - На усмотрение-Command Squad
+("squad_with8types" side(igs) name(sq_command) 		c(240) g(h_1) c1(commissar_bolt:1) c2(ig_strom_hg:2) c3(ig_strom_hg:2) c4(ig_vet_korrekt:1) c5(ig_vet_korrekt_01:1) c6(kasrkin_pc:1) c7(inquisition_psyker:1) c8(vindicare:1)  b(hero) t(spotter) level(1) cost(3) f(-1))
+
+;ig-Отряд Катачанцев
+("squad_with4types" side(igs) name(sq_cathacan) 	c(240) g(h_1) c1(cathacan_sg:3) c2(cathacan_lg:6) c3(cathacan_lider:1) c4(cathacan_hb:2) b(hero) t(heavy_bolter plasma inf_sab) level(1) cost(2) f(0))
+
+;Химера - командная
+;{"command_ig"										("v_1_i_3" c(120) c1(command_ig) t(all sup_sct) s(igs) n1(tanker:1) n2(tanker_01:3) n3(commissar_tank:1) g(h_2) cp(10) b(hero)) {level 1} {cost 3} {score 25} {fore -3.5}}
+
+;ig-Отряд Караскинов
+{"ig_air_drop_2_kasrkin"							("v_1_i_0" c(300) g(h_3) c1(ig_air_drop_2_kasrkin) t(all par) s(igs) g(desant) cp(0) b(hero)) {cost 2} {fore -2.6}}
+
+;ig-Ассасин
+;("squad_with1types" side(igs) name(assassin) 		c(300) g(h_4) c1(vindicare:1) b(hero) t(sniper special inf_sab) level(1) cost(1) f(-2.6))
+
+;Леман Русс
+{"lemanruss_scoop_hero"							("v_1_i_4" c(240) c1(lemanruss_scoop) t(all veh_a_veh) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) n4(tanker:2) cp(20) g(h_5) b(hero)) {level 5} {cost 4} {score 50} {fore -1.25}}
+
+;Арт десант- ИГ
+{"ig_air_drop_1_plasmagun"							("v_1_i_0" c(240) c1(ig_air_drop_1_plasmagun)		t(all par) s(igs) g(h_6) cp(0) b(hero)) {cost 1} {fore -1.25}}
+
+
+;Объявление для инициации
+;Тарантул
+{"tarantula_hb"						("v_1_i_0" c(0) c1(tarantula_hb)	t(all non) s(igs) g(tarantul_hb) cp(2) b(non)) {cost 1} {fore 0}}
+{"tarantula_multilaser"				("v_1_i_0" c(0) c1(tarantula_multilaser)	t(all non) s(igs) g(tarantula_mul) cp(2) b(non)) {cost 1} {fore 0}}
+{"tarantula_ml"						("v_1_i_0" c(0) c1(tarantula_ml)	t(all non) s(igs) g(tarantula_ml) cp(2) b(non)) {cost 1} {fore 0}}
+
+;Валькирия
+{"ig_valkyrie_strike"				("v_1_i_0" c(0) c1(ig_valkyrie_strike)	t(all non) s(igs) g(valkyrie) cp(2) b(non)) {cost 1} {fore 0}}
+{"ig_valkyrie_multilas_2"			("v_1_i_0" c(0) c1(ig_valkyrie_multilas_2)	t(all non) s(igs) g(valkyrie) cp(2) b(non)) {cost 1} {fore 0}}
+{"ig_valkyrie_multilas"				("v_1_i_0" c(0) c1(ig_valkyrie_multilas)	t(all non) s(igs) g(valkyrie) cp(2) b(non)) {cost 1} {fore 0}}
+{"ig_valkyrie_lascannon_2"			("v_1_i_0" c(0) c1(ig_valkyrie_lascannon_2)	t(all non) s(igs) g(valkyrie) cp(2) b(non)) {cost 1} {fore 0}}
+{"ig_valkyrie_lascannon"			("v_1_i_0" c(0) c1(ig_valkyrie_lascannon)	t(all non) s(igs) g(valkyrie) cp(2) b(non)) {cost 1} {fore 0}}
+{"ig_valkyrie_air_strike_mul_2"		("v_1_i_0" c(0) c1(ig_valkyrie_air_strike_mul_2)	t(all non) s(igs) g(valkyrie) cp(2) b(non)) {cost 1} {fore 0}}
+{"ig_valkyrie_air_strike_lc_2"		("v_1_i_0" c(0) c1(ig_valkyrie_air_strike_lc_2)	t(all non) s(igs) g(valkyrie) cp(2) b(non)) {cost 1} {fore 0}}
+
+
+
+
+;Ботовские приколы
+
+;Отряд СПО 
+("squad_with3types" side(igs) name(sq_lg_bot) 		c(30) g(squad_99) c1(plf_lg_01:1) c2(plf_lg:3) c3(pdf_ag_00:6) b(squad_99) t(lasgun free_inf_com) level(1) cost(10) f(-17))
+
+;Отряд рядовых с лазганами 
+("squad_with3types" side(igs) name(sq_rl_bot) 		c(35) g(squad_99) c1(pdf_ag_00:3) c2(plf_lg_01:6) c3(ig_rl:1) b(squad_99) t(lasgun free_inf_a_veh) level(1) cost(15) f(-17))
+
+;Часовой
+{"sentinel_fl_bot"								("v_1_i_1" c(60) c1(sentinel_fl) t(all free_veh_a_all) s(igs) n1(tanker_01:1) g(squad_99) cp(2) b(squad_99)) {level 1} {cost 35} {score 1} {fore -9}}

@@ -1,0 +1,115 @@
+﻿
+
+;Отряд P1 
+("squad_with3types" side(rep) name(sq_p1_clone) 		c(30) g(sq_p1) c1(p1_serg_mgun:1) c2(p1_clone_smg:6) c3(p1_clone_rifle:3)  b(squad1) t(blaster) level(1) cost(80) f(1))
+
+;Отряд P1 
+("squad_with3types" side(rep) name(sq_p1_clone_rifle) 	c(30) g(sq_p1) c1(p1_serg_rifle:1) c2(p1_clone_rifle:8) c3(p1_engineer:1) b(squad1) t(blaster) level(1) cost(75) f(1))
+
+;Отряд P1 
+("squad_with2types" side(rep) name(sq_p1_clone_jet) 	c(30) g(sq_p1) c1(p1_jet_serg:1) c2(p1_jet:9) b(squad1) t(blaster) level(1) cost(75) f(1))
+
+
+;Отряд P2
+("squad_with5types" side(rep) name(sq_p2_clone) 		c(1) g(sq_p2) c1(p2_arc:1) c2(p2_clone_mgun:1) c3(p2_medic:1) c4(p2_clone_smg:4) c5(p2_clone_rifle:3)  b(squad1) t(blaster) level(1) cost(60) f(-299))
+
+;Отряд P2 
+("squad_with4types" side(rep) name(sq_p2_clone_rifle) 	c(1) g(sq_p2) c1(p2_arc:1) c2(p2_clone_hmgun:1) c3(p2_engineer:1) c4(p2_clone_rifle:7) b(squad1) t(blaster) level(1) cost(75) f(-299))
+
+;Отряд P2
+("squad_with2types" side(rep) name(sq_p2_clone_jet) 	c(1) g(sq_p2) c1(p2_jet_serg:1) c2(p2_jet:9) b(squad1) t(blaster) level(1) cost(75) f(-299))
+
+
+;Отряд
+("squad_with4types" side(rep) name(sq_clone_sturm) 	c(120) g(sq_p2) c1(sturmovik_mgun:3) c2(sturmovik:4) c3(sturmovik_gl:1) c4(sturmovik_rpg:2) b(squad1) t(blaster) level(1) cost(200) f(-4))
+
+("squad_with3types" side(rep) name(sq_commando)		c(300) 	g(sq_commando) c1(commando:2) c2(commando_gr:1) c3(commando_sniper:1) b(squad1) t(blaster) level(1) cost(400) f(-1))
+
+("squad_with2types" side(rep) name(sq_crew) 		c(60) g(crew) c1(tankman:4) b(squad1) t(tankman) level(1) cost(75) f(-3))
+
+
+;=================================Герои=================================;
+
+("squad_with5types" side(rep) name(sq_corusant)		c(300) 	g(sq_corusant) c1(corusant_guard_serg:1) c2(corusant_guard_smg:3) c3(corusant_guard_rpg:2) c4(corusant_guard_rifle:3) c5(corusant_guard_sr:1) b(hero) t(blaster) level(1) cost(1) f(0.5))
+
+("squad_with6types" side(rep) name(sq_501)			c(300) 	g(sq_501) c1(elite_501_serg:1) c2(elite_501_smg:4) c3(corusant_guard_rpg:1) c4(elite_501_rifle:2) c5(elite_501_mgun:1) c6(elite_501_sr:1) b(hero) t(blaster) level(1) cost(1) f(0.5))
+
+("squad_with4types" side(rep) name(delta_squad)		c(600) 	g(delta_squad) c1(delta_62:1) c2(delta_40:1) c3(delta_38:1) c4(delta_07:1) b(hero) t(delta_squad blaster) level(1) cost(2) f(0.5))
+
+("squad_with2types" side(rep) name(sq_wookie)		c(300) 	g(sq_wookie) c1(wookie:6) c2(wookie_2:4) b(hero) t(wookie blaster) level(1) cost(2) f(0.5))
+
+("squad_with2types" side(rep) name(Obi_Wan)			c(1200) g(jedi) c1(Obi_Wan:1) b(hero) t(jedi) level(1) cost(1) f(2))
+
+("squad_with2types" side(rep) name(mace_windu)		c(1200) g(jedi) c1(mace_windu:1) b(hero) t(jedi) level(1) cost(1) f(2))
+
+("squad_with2types" side(rep) name(kit_fisto)		c(1200) g(jedi) c1(kit_fisto:1) b(hero) t(jedi) level(1) cost(1) f(2))
+
+("squad_with2types" side(rep) name(plo_koon)		c(1200) g(jedi) c1(plo_koon:1) b(hero) t(jedi) level(1) cost(1) f(2))
+
+
+;=================================Спецотряды=================================;
+
+
+;Огнемет P1 
+("squad_with2types" side(rep) name(sq_p1_fl)		c(30) g(clon_1) c1(p1_fl:1) c2(p1_fl_assistant:1) b(squad3) t(flamer blaster) level(1) cost(20) f(1))
+
+;Ракетница P1 
+("squad_with2types" side(rep) name(sq_p1_at)		c(30) g(clon_1) c1(p1_rl:1) c2(p1_rl_support:1) b(squad3) t(at blaster) level(1) cost(60) f(1))
+
+;Снайпер P1 
+("squad_with1types" side(rep) name(sq_p1_sniper)	c(30) g(clon_1) c1(p1_sniper:1) b(squad3) t(sniper blaster) level(1) cost(60) f(1))
+
+
+;Гранатомёт P2 
+("squad_with2types" side(rep) name(sq_p2_gl)		c(30) g(clon_p2) c1(p2_gl:3) b(squad3) t(gl blaster) level(1) cost(20) f(-9))
+
+;Ракетница P2
+("squad_with2types" side(rep) name(sq_p2_at)		c(30) g(clon_p2) c1(p2_rl:1) c2(p2_rl_support:1) b(squad3) t(at blaster) level(1) cost(30) f(-9))
+
+;Снайпер P2
+("squad_with1types" side(rep) name(sq_p2_sniper)	c(30) g(clon_p2) c1(p2_sniper:1) b(squad3) t(sniper blaster) level(1) cost(30) f(-9))
+
+;Гранатомёт P2 
+("squad_with2types" side(rep) name(sq_p2_hmgun)		c(30) g(clon_p2) c1(p2_hmgun:3) c2(p2_hmgun_support:2) b(squad3) t(gl blaster) level(1) cost(45) f(-9))
+
+;Отряд Стелс Клонов P1 
+("squad_with1types" side(rep) name(sq_p1_shadow_clone)		c(120) g(p1_shadow) c1(p1_shadow_clone:5) b(squad3) t(stealth blaster) level(1) cost(160) f(-1))
+
+;Отряд Стелс Клонов P2 
+("squad_with1types" side(rep) name(sq_p2_shadow_clone)		c(60) g(p1_shadow) c1(p2_shadow_clone:5) b(squad3) t(stealth blaster) level(1) cost(120) f(-9))
+
+
+
+;================================= поддержка =================================;
+
+;Станковый пулемёт
+{"mark1_medium_blastmgun_blue"	("v_1_i_2" c(60) c1(mark1_medium_blastmgun_blue) t(all) s(rep) n1(tankman:1) g(b21) cp(2) b(v2)) {level 1} {cost 40} {score 10} {fore 1}}
+
+;Миномет
+{"rep_mortar"					("v_1_i_2" c(60) c1(rep_mortar) t(all) s(rep) n1(tankman_01:2) g(b24) cp(3) b(v2)) {level 1} {cost 140} {score 10} {fore 1}}
+
+
+;=================================Орудия поддержки=================================;
+
+{"swamp_speeder"				("v_1_i_2" c(120) c1(swamp_speeder) t(all) s(rep) n1(p2_pilot_speeder:2) g(s_1)  cp(5) b(v3)) {level 1} {cost 110} {score 25} {fore 0}}
+
+{"74z_speederbike_rep"			("v_1_i_2" c(120) c1(74z_speederbike_rep) t(all) s(rep) n1(p2_pilot_speeder:1) g(s_1)  cp(5) b(v3)) {level 1} {cost 90} {score 25} {fore 0}}
+
+{"at-rt"						("v_1_i_2" c(120) c1(at-rt) t(all) s(rep) n1(tankman:1) g(s_2)  cp(5) b(v3)) {level 1} {cost 110} {score 25} {fore 0}}
+
+;=================================Танковая поддержка  v4=================================;
+
+{"tx-130t"						("v_1_i_2" c(120) c1(tx-130t) t(all) s(rep) n1(tankman_01:3) n2(tankman_02:1) g(tank_1)  cp(5) b(v4)) {level 1} {cost 380} {score 25} {fore 0}}
+
+{"clone_hovertank"				("v_1_i_2" c(120) c1(clone_hovertank) t(all) s(rep) n1(tankman_02:1) g(tank_2)  cp(5) b(v4)) {level 1} {cost 320} {score 25} {fore 0}}
+
+{"at-xt"						("v_1_i_2" c(120) c1(at-xt) t(all) s(rep) n1(tankman_02:1) g(tank_3)  cp(5) b(v4)) {level 1} {cost 260} {score 25} {fore 0}}
+
+
+{"at-te"						("v_1_i_2" c(120) c1(at-te) t(all) s(rep) n1(tankman_01:3) n2(tankman_02:1) g(tank_1)  cp(5) b(v4)) {level 1} {cost 460} {score 25} {fore -2}}
+
+{"ut-at"						("v_1_i_2" c(120) c1(ut-at) t(all) s(rep) n1(tankman_01:3) n2(tankman_02:1) g(tank_1)  cp(5) b(v4)) {level 1} {cost 440} {score 25} {fore -2}}
+
+{"at-at_rep"					("v_1_i_2" c(120) c1(at-at_rep) t(all) s(rep) n1(tankman_01:3) n2(tankman_02:1) g(tank_1)  cp(5) b(v4)) {level 1} {cost 680} {score 25} {fore -4}}
+
+

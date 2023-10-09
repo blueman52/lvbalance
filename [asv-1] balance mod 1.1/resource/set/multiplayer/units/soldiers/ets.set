@@ -1,0 +1,42 @@
+﻿
+;-------------------------------Imperial_Guard---------------------------------
+
+;Лазган
+("soldier" breed(ig_lg) 		side(ets) tags(lasgun) cp(1.25) score(0.5) cw(1))
+("soldier" breed(ig_vet_lg) 	side(ets) tags(lasgun veteran) cp(1.25) score(1) cw(1))
+
+;Гранатомет
+("soldier" breed(ig_gl) 		side(ets) tags(grenade) cp(1.25) score(0.5) cw(1))
+("soldier" breed(ig_vet_gl) 	side(ets) tags(grenade veteran) cp(1.25) score(1) cw(1))
+
+;РПГ
+("soldier" breed(ig_rl) 		side(ets) tags(at) cp(1.25) score(0.5) cw(1))
+("soldier" breed(ig_vet_rl) 	side(ets) tags(at veteran) cp(1.25) score(1) cw(1))
+
+;Мельта
+("soldier" breed(ig_ml) 		side(ets) tags(melta at) cp(1.25) score(0.5) cw(1))
+("soldier" breed(ig_vet_ml) 	side(ets) tags(melta at veteran) cp(1.25) score(1) cw(1))
+
+;Плазмаган
+("soldier" breed(ig_pg) 		side(ets) tags(plasma) cp(1.25) score(0.5) cw(1))
+("soldier" breed(ig_vet_pg) 	side(ets) tags(plasma veteran) cp(1.25) score(1) cw(1))
+
+;Плазмаган
+("soldier" breed(ig_hb) 		side(ets) tags(bolter) cp(1.25) score(0.5) cw(1))
+("soldier" breed(ig_vet_hb) 	side(ets) tags(bolter veteran) cp(1.25) score(1) cw(1))
+
+;Снайпер
+("soldier" breed(ig_sr) 		side(ets) tags(sniper) cp(1.25) score(1) cw(1))
+("soldier" breed(ig_vet_sr) 	side(ets) tags(sniper veteran) cp(1.25) score(1) cw(1))
+
+;Сержант
+("soldier" breed(ig_serg) 		side(ets) tags(lasgun) cp(1.25) score(0.5) cw(1))
+("soldier" breed(ig_vet_serg) 	side(ets) tags(lasgun veteran) cp(1.25) score(1) cw(1))
+
+;Штурмовик
+("soldier" breed(harakon) 		side(ets) tags(hellgun) cp(1.25) score(2) cw(1))
+("soldier" breed(harakon_01) 	side(ets) tags(hellgun) cp(1.25) score(2) cw(1))
+
+;Танкист
+("soldier" breed(tanker) 		side(ets) tags(lasgun tankman) cp(1) score(0.1) cw(0))
+("soldier" breed(tanker_hkm) 	side(ets) tags(lasgun tankman) cp(1) score(0.1) cw(0))

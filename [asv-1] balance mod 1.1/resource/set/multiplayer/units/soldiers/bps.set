@@ -1,0 +1,98 @@
+
+;-------------------------------Blood_Pact-------------------------------------
+
+;Автоган-Auto Gun Breed
+("soldier" breed(rn_ag)    side(bps) tags(autogun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(rn_ag_01) side(bps) tags(autogun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(rn_ag_02) side(bps) tags(autogun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(rn_ag_03) side(bps) tags(autogun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(rn_ag_04) side(bps) tags(autogun) cp(0.5) score(0.33) cw(1))
+
+;Лазган- Las Gun Breed
+("soldier" breed(rn_lg) 		side(bps) tags(lasgun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(rn_lg_01) 		side(bps) tags(lasgun) cp(0.5) score(0.33) cw(1))
+("soldier" breed(rn_vet_lg) 	side(bps) tags(lasgun veteran) cp(1) score(1) cw(1))
+("soldier" breed(rn_vet_lg_01)	side(bps) tags(lasgun veteran) cp(1) score(1) cw(1))
+("soldier" breed(rn_vet_lg_02)	side(bps) tags(hellgun veteran) cp(1) score(1) cw(1))
+
+;Огнемет-Flamer Breed
+("soldier" breed(rn_fl) side(bps) tags(flamer) cp(0.5) score(0.33) cw(1))
+
+;Гранатомет-Flamer Breed
+("soldier" breed(rn_gr) side(bps) tags(grenade) cp(0.5) score(0.33) cw(1))
+
+;Стаббер-Stubber Breed
+("soldier" breed(rn_stb)	side(bps) tags(stabber) cp(1) score(0.33) cw(1))
+("soldier" breed(rn_stb_01) side(bps) tags(stabber) cp(1) score(0.33) cw(1))
+("soldier" breed(rn_stb_02) side(bps) tags(stabber) cp(1) score(0.33) cw(1))
+
+;РПГ-AT Breed
+("soldier" breed(rn_rl) side(bps) tags(at) cp(0.5) score(0.33) cw(1))
+
+;Мельта
+("soldier" breed(rn_ml) side(bps) tags(melta at) cp(0.5) score(0.33) cw(1))
+("soldier" breed(rn_vet_ml) side(bps) tags(melta at veteran) cp(1) score(1) cw(1))
+
+;Плазмаган
+("soldier" breed(rn_pg) side(bps) tags(plasma) cp(0.5) score(0.33) cw(1))
+("soldier" breed(rn_vet_pg) side(bps) tags(plasma veteran) cp(1) score(1) cw(1))
+
+;Снайпер
+("soldier" breed(rn_sr) side(bps) tags(sniper) cp(0.5) score(0.44) cw(1))
+("soldier" breed(rn_vet_sr) side(bps) tags(sniper veteran) cp(0.5) score(1) cw(1))
+("soldier" breed(rn_vet_raz) side(bps) tags(sniper veteran) cp(0.5) score(1) cw(1))
+
+;Сержант
+("soldier" breed(rn_serg_ag) side(bps) tags(bolter) cp(1) score(0.33) cw(1))
+("soldier" breed(rn_serg_lg) side(bps) tags(stabber) cp(1) score(0.33) cw(1))
+("soldier" breed(rn_serg_bolt) side(bps) tags(bolter) cp(1) score(0.33) cw(1))
+("soldier" breed(rn_serg_stb) side(bps) tags(stabber) cp(1) score(0.33) cw(1))
+
+;Штурмовик
+("soldier" breed(rn_strom_hg) side(bps) tags(hellgun) cp(1) score(2) cw(1))
+("soldier" breed(rn_strom_hg_01) side(bps) tags(hellgun) cp(1) score(2) cw(1))
+
+;Разведчик
+("soldier" breed(rn_vet_lg_raz) side(bps) tags(spotter) cp(0) score(1) cw(1))
+
+;Оператор вокс передатчика
+("soldier" breed(rn_vox) side(bps) tags(spotter) cp(1) score(1) cw(1))
+
+;Одержимый - огнемет
+("soldier" breed(possessed_fl) side(bps) tags(flamer special) cp(1) score(0.33) cw(1))
+
+;Одержимый - гранатомет
+("soldier" breed(possessed_gl) side(bps) tags(grenade special) cp(1) score(0.33) cw(1))
+
+;Одержимый - стаббер
+("soldier" breed(possessed_stb) side(bps) tags(stabber special) cp(1) score(0.33) cw(1))
+("soldier" breed(possessed_stb_01) side(bps) tags(stabber special) cp(1) score(0.33) cw(1))
+
+;Бригада смерти
+("soldier" breed(death_brigade_hg) 	side(bps) tags(hellgun) cp(1) score(2) cw(1))
+("soldier" breed(death_brigade_khg) side(bps) tags(hellgun) cp(1) score(2) cw(1))
+("soldier" breed(death_brigade_pg) 	side(bps) tags(plasma) cp(1) score(2) cw(1))
+("soldier" breed(death_brigade_stb) side(bps) tags(stabber) cp(1) score(2) cw(1))
+("soldier" breed(death_brigade_lg) 	side(bps) tags(lasgun) cp(1) score(2) cw(1))
+("soldier" breed(death_brigade_llg) side(bps) tags(lasgun) cp(1) score(2) cw(1))
+
+;Космодесант Хаоса
+("spacemarine" breed(merc_vet) side(bps) tags(bolter) cp(5) score(10) cw(1))
+("spacemarine" breed(merc_hb) side(bps) tags(heavy_bolter) cp(5) score(10) cw(1))
+("spacemarine" breed(merc_ac) side(bps) tags(autocannon) cp(5) score(10) cw(1))
+("spacemarine" breed(merc_bg) side(bps) tags(bolter) cp(5) score(10) cw(1))
+("spacemarine" breed(merc_rl) side(bps) tags(at) cp(5) score(10) cw(1))
+("spacemarine" breed(merc_ml) side(bps) tags(melta at) cp(5) score(10) cw(1))
+
+;Танкист
+("soldier" breed(tanker) side(bps) tags(lasgun tankman) cp(0.5) score(0.1) cw(1))
+("soldier" breed(tanker_01) side(bps) tags(lasgun tankman) cp(0.5) score(0.1) cw(1))
+
+;инженеры
+("soldier" breed(bps_engener1) side(bps) tags(engener) cp(5) score(10) cw(1))
+("soldier" breed(bps_engener2) side(bps) tags(engener) cp(5) score(10) cw(1))
+
+;Колдун
+("soldier" breed(sorcerer) side(bps) tags(special) cp(7) score(2) cw(1))
+
+

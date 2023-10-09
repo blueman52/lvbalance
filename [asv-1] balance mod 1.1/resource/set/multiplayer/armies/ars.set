@@ -1,0 +1,7 @@
+{army
+	{id 7}
+	{title "mp/army/ars"}
+	{icon "/interface/pages/multi/flag_ars"}
+	{flag "/interface/pages/multi/flag_ars"}
+}
+

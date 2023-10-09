@@ -1,0 +1,201 @@
+
+;=================================Отряды=================================;
+;Парни
+{"tp_orks_boys"				("v_2_i_0" c(10) c1(tp_orks_boys) c2(tp_orks_boys) 	t(all non) s(ork) g(squad_1) cp(6) b(squad1)) {cost 10} {fore 1}}
+;Стрелки
+{"tp_orks_boys_shoota"		("v_2_i_0" c(10) c1(tp_orks_boys_shoota) c2(tp_orks_boys_shoota)	t(all non) s(ork) g(squad_2) cp(6) b(squad1)) {cost 20} {fore 1}}
+;Меганобы
+{"tp_orks_meganob"			("v_1_i_0" c(120) c1(tp_orks_meganob)	t(all non) s(ork) g(squad_3) cp(20) b(squad1)) {cost 80} {fore -3.5}}
+
+;Нобы - Срелки
+{"tp_orks_nob_shoota"			("v_1_i_0" c(60) c1(tp_orks_nob_shoota)	t(all non) s(ork) g(squad_4) cp(12) b(squad1)) {cost 40} {fore -1}}
+;Нобы - Огнеметы
+{"tp_orks_nob_burna"			("v_1_i_0" c(60) c1(tp_orks_nob_burna)	t(all non) s(ork) g(squad_5) cp(12) b(squad1)) {cost 50} {fore -1}}
+;Нобы - дробовики
+{"tp_orks_nob_spechul_shoota"	("v_1_i_0" c(60) c1(tp_orks_nob_spechul_shoota)	t(all non) s(ork) g(squad_6) cp(12) b(squad1)) {cost 60} {fore -1}}
+
+;=================================Спецотряды=================================;
+;Лутасы - Пулеметы
+{"tp_orks_loota_boy"		("v_1_i_0" c(60) c1(tp_orks_loota_boy)	t(all non) s(ork) g(hw_1) cp(6) b(squad3)) {cost 70} {fore -1}}
+
+;Лутасы - мельты
+{"tp_orks_loota_boy_mm"		("v_1_i_0" c(60) c1(tp_orks_loota_boy_mm)	t(all non) s(ork) g(hw_2) cp(6) b(squad3)) {cost 120} {fore -1}}
+
+;Лутасы - рокеты
+{"tp_orks_loota_boy_rl"		("v_1_i_0" c(60) c1(tp_orks_loota_boy_rl)	t(all non) s(ork) g(hw_3) cp(6) b(squad3)) {cost 120} {fore -1}}
+
+;Лутасы - плазма
+{"tp_orks_loota_boy_pc"		("v_1_i_0" c(60) c1(tp_orks_loota_boy_pc)	t(all non) s(ork) g(hw_4) cp(6) b(squad3)) {cost 150} {fore -8}}
+
+;Лутасы - лазпушки
+{"tp_orks_loota_boy_lc"		("v_1_i_0" c(60) c1(tp_orks_loota_boy_lc)	t(all non) s(ork) g(hw_5) cp(6) b(squad3)) {cost 150} {fore -8}}
+
+;=================================Артиллерия=================================;
+
+;Арт вагон Пушка
+{"orks_gun_wagon_heavy_2"	("v_1_i_0" c(300) c1(orks_gun_wagon_heavy_2)	t(all veh_art) s(ork) g(art_1) cp(8) b(v2)) {cost 300} {fore -1}}
+
+;Арт вагон Ракета
+{"orks_gun_wagon_heavy_1"	("v_1_i_0" c(300) c1(orks_gun_wagon_heavy_1)	t(all veh_art) s(ork) g(art_2) cp(8) b(v2)) {cost 300} {fore -1}}
+
+
+;=================================Поддержка=================================;
+
+;Грот Танк - пушки
+{"orks_grot_tank_1"			("v_3_i_0" c(120) c1(orks_grot_tank_1) c2(orks_grot_tank_1) c3(orks_grot_tank_1)	t(all sup_sct) s(ork) g(tank_1) cp(2) b(v3)) {cost 70} {fore -0}}
+
+;Грот Танк - свинцометы
+{"orks_grot_tank_2"			("v_3_i_0" c(120) c1(orks_grot_tank_2) c2(orks_grot_tank_2) c3(orks_grot_tank_2)	t(all sup_a_inf) s(ork) g(tank_2) cp(2) b(v3)) {cost 70} {fore -0}}
+
+;Грот Танк - Ракеты
+{"orks_grot_tank_3"			("v_3_i_0" c(120) c1(orks_grot_tank_3) c2(orks_grot_tank_3) c3(orks_grot_tank_3)	t(all sup_a_veh) s(ork) g(tank_3) cp(2) b(v3)) {cost 70} {fore -0}}
+
+;Грот Танк - Огнеметы
+{"orks_grot_tank_4"			("v_3_i_0" c(120) c1(orks_grot_tank_4) c2(orks_grot_tank_4) c3(orks_grot_tank_4)	t(all sup_sct) s(ork) g(tank_4) cp(2) b(v3)) {cost 70} {fore -0}}
+
+;Угнанная химера плазма
+{"orks_looted_chimera_1"	("v_1_i_0" c(120) c1(orks_looted_chimera_1)	t(all veh_a_all) s(ork) g(tank_5) cp(2) b(v3)) {cost 120} {fore -3.5}}
+
+;Штурмовой вагон пушка
+{"orks_gun_wagon_2"			("v_1_i_0" c(120) c1(orks_gun_wagon_2)	t(all veh_art) s(ork) g(tank_6) cp(2) b(v3)) {cost 80} {fore -3.5}}
+
+;Смертолеты
+{"smertolet"				("v_3_i_0" c(120) c1(smertolet) c2(smertolet) c3(smertolet)	t(all sup_a_inf) s(ork) g(tank_7) cp(2) b(v3)) {cost 20} {fore -0}}
+
+
+;=================================Танковая поддержка=================================; v4
+;Банка - рукапаш
+{"tp_orks_killa_kan_melee"	("v_1_i_0" c(120) c1(tp_orks_killa_kan_melee)	t(all veh_a_all) s(ork) g(tank_8) cp(5) b(v4)) {cost 150} {fore -3.5}}
+
+;Банка - огнеметы
+{"orks_killa_kan_fl_x2"		("v_1_i_0" c(120) c1(orks_killa_kan_fl_x2)	t(all veh_a_all) s(ork) g(tank_9) cp(5) b(v4)) {cost 160} {fore -3.5}}
+
+;Банка - огнемет и свинцомет
+{"orks_killa_kan_fl"		("v_1_i_0" c(120) c1(orks_killa_kan_fl)	t(all veh_a_inf) s(ork) g(tank_10) cp(5) b(v4)) {cost 160} {fore -3.5}}
+
+
+;Банка - Свинцометы
+{"orks_killa_kan"			("v_1_i_0" c(120) c1(orks_killa_kan)	t(all veh_a_inf) s(ork) g(tank_11) cp(5) b(v4)) {cost 170} {fore -3.5}}
+
+;Банка - Ракеты
+{"orks_killa_kan_rl"		("v_1_i_0" c(120) c1(orks_killa_kan_rl)	t(all veh_a_veh) s(ork) g(tank_12) cp(5) b(v4)) {cost 180} {fore -3.5}}
+
+;Банка - Плазма
+{"orks_killa_kan_pc"		("v_1_i_0" c(120) c1(orks_killa_kan_pc)	t(all veh_a_all) s(ork) g(tank_13) cp(5) b(v4)) {cost 180} {fore -3.5}}
+
+;Гарганавт
+{"orks_gorkanaut"			("v_1_i_0" c(300) c1(orks_gorkanaut)	t(all ult) s(ork) g(tank_14) cp(20) b(v4)) {cost 400} {fore -0.8}}
+
+;=================================Танковая поддержка=================================; v5
+
+
+
+
+;=== ID
+
+{"orks_boy_1"					("ID" c(0) c1(orks_boy_1) 		 t(all inf_com) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_boy_2"					("ID" c(0) c1(orks_boy_2)		 t(all inf_com) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_boy_3"					("ID" c(0) c1(orks_boy_3) 		 t(all inf_com) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_boy_4"					("ID" c(0) c1(orks_boy_4)		 t(all inf_com) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_boy_5"					("ID" c(0) c1(orks_boy_5) 		 t(all inf_com) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_boy_choppa_1"			("ID" c(0) c1(orks_boy_choppa_1) t(all inf_tac) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_boy_shield_1"			("ID" c(0) c1(orks_boy_shield_1) t(all inf_tac) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_boy_shield_2"			("ID" c(0) c1(orks_boy_shield_2) t(all inf_tac) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_boy_shield_3"			("ID" c(0) c1(orks_boy_shield_3) t(all inf_tac) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+
+{"orks_meganob_1"				("ID" c(0) c1(orks_meganob_1) t(all inf_vet) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+
+{"orks_shoota_boy_1"			("ID" c(0) c1(orks_shoota_boy_1) t(all inf_tac) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_shoota_boy_2"			("ID" c(0) c1(orks_shoota_boy_2) t(all inf_tac) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_shoota_boy_3"			("ID" c(0) c1(orks_shoota_boy_3) t(all inf_tac) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_shoota_boy_4"			("ID" c(0) c1(orks_shoota_boy_4) t(all inf_tac) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_shoota_boy_5"			("ID" c(0) c1(orks_shoota_boy_5) t(all inf_tac) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_shoota_boy_6"			("ID" c(0) c1(orks_shoota_boy_6) t(all inf_tac) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_shootaroket_boy_1"		("ID" c(0) c1(orks_shootaroket_boy_1) t(all inf_a_inf) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_twinshoota_boy_1"		("ID" c(0) c1(orks_twinshoota_boy_1) t(all inf_a_inf) s(ork) g(non) cp(2.5) b(non)) {level 1} {score 1} {fore 1}}
+
+{"orks_nob_shoota_1"			("ID" c(0) c1(orks_nob_shoota_1) t(all inf_vet) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_shoota_2"			("ID" c(0) c1(orks_nob_shoota_2) t(all inf_vet) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_shoota_3"			("ID" c(0) c1(orks_nob_shoota_3) t(all inf_vet) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_big_shoota_1"		("ID" c(0) c1(orks_nob_big_shoota_1) t(all inf_a_inf) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_big_shoota_2"		("ID" c(0) c1(orks_nob_big_shoota_2) t(all inf_a_inf) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_big_shoota_3"		("ID" c(0) c1(orks_nob_big_shoota_3) t(all inf_a_inf) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_burna_1"				("ID" c(0) c1(orks_nob_burna_1) t(all inf_a_all) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_burna_2"				("ID" c(0) c1(orks_nob_burna_2) t(all inf_a_all) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_burna_3"				("ID" c(0) c1(orks_nob_burna_3) t(all inf_a_all) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_spechul_shoota_1"	("ID" c(0) c1(orks_nob_spechul_shoota_1) t(all inf_a_inf) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_spechul_shoota_2"	("ID" c(0) c1(orks_nob_spechul_shoota_2) t(all inf_a_inf) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+{"orks_nob_spechul_shoota_3"	("ID" c(0) c1(orks_nob_spechul_shoota_3) t(all inf_a_inf) s(ork) g(non) cp(4) b(non)) {level 1} {score 1} {fore 1}}
+
+{"orks_loota_boy_1"				("ID" c(0) c1(orks_loota_boy_1) t(all inf_a_inf) s(ork) g(dev_shoota) cp(5) b(non)) {level 1} {score 10} {fore 1}}
+{"orks_loota_boy_2"				("ID" c(0) c1(orks_loota_boy_2) t(all inf_a_inf) s(ork) g(dev_shoota) cp(5) b(non)) {level 1} {score 10} {fore 1}}
+{"orks_loota_boy_3"				("ID" c(0) c1(orks_loota_boy_3) t(all inf_a_inf) s(ork) g(dev_shoota) cp(5) b(non)) {level 1} {score 10} {fore 1}}
+{"orks_loota_boy_rl"			("ID" c(0) c1(orks_loota_boy_rl) t(all inf_a_veh) s(ork) g(non) cp(5) b(non)) {level 1} {score 10} {fore 1}}
+{"orks_loota_boy_mm"			("ID" c(0) c1(orks_loota_boy_mm) t(all inf_a_veh) s(ork) g(non) cp(5) b(non)) {level 1} {score 10} {fore 1}}
+{"orks_loota_boy_gr"			("ID" c(0) c1(orks_loota_boy_gr) t(all inf_a_inf) s(ork) g(non) cp(5) b(non)) {level 1} {score 10} {fore 1}}
+{"orks_loota_boy_pc"			("ID" c(0) c1(orks_loota_boy_pc) t(all inf_a_all) s(ork) g(non) cp(5) b(non)) {level 1} {score 10} {fore 1}}
+{"orks_loota_boy_lc"			("ID" c(0) c1(orks_loota_boy_lc) t(all inf_a_veh) s(ork) g(non) cp(5) b(non)) {level 1} {score 10} {fore 1}}
+
+{"orks_killa_kan_melee"			("v_1_i_0" c(0) c1(orks_killa_kan_melee)	t(all veh_a_veh) s(ork) g(non) cp(6) b(non)) {cost 0} {fore 1}}
+{"orks_killa_kan_melee_rl"		("v_1_i_0" c(0) c1(orks_killa_kan_melee_rl)	t(all veh_a_veh) s(ork) g(non) cp(6) b(non)) {cost 0} {fore 1}}
+{"orks_killa_kan_melee_pc"		("v_1_i_0" c(0) c1(orks_killa_kan_melee_pc)	t(all veh_a_all) s(ork) g(non) cp(6) b(non)) {cost 0} {fore 1}}
+{"orks_killa_kan_melee_fl"		("v_1_i_0" c(0) c1(orks_killa_kan_melee_fl)	t(all veh_a_all) s(ork) g(non) cp(6) b(non)) {cost 0} {fore 1}}
+
+;=== ID ==== Бота 
+
+{"bot_orks_boy_1"					("f_1" c(0) c1(orks_boy_1) t(all inf_com) s(ork) g(non) b(non)) {cost 5} {fore 1}}
+{"bot_orks_boy_2"					("f_1" c(0) c1(orks_boy_2) t(all inf_com) s(ork) g(non) b(non)) {cost 5} {fore 1}}
+{"bot_orks_boy_3"					("f_1" c(0) c1(orks_boy_3) t(all inf_com) s(ork) g(non) b(non)) {cost 5} {fore 1}}
+{"bot_orks_boy_4"					("f_1" c(0) c1(orks_boy_4) t(all inf_com) s(ork) g(non) b(non))	{cost 5} {fore 1}}
+{"bot_orks_boy_5"					("f_1" c(0) c1(orks_boy_5) t(all inf_com) s(ork) g(non) b(non)) {cost 5} {fore 1}}
+{"bot_orks_boy_choppa_1"			("f_1" c(0) c1(orks_boy_choppa_1) t(all inf_tac) s(ork) g(non) b(non)) {cost 10} {fore 1}}
+{"bot_orks_boy_shield_1"			("f_1" c(0) c1(orks_boy_shield_1) t(all inf_tac) s(ork) g(non) b(non))	{cost 10} {fore 1}}
+{"bot_orks_boy_shield_2"			("f_1" c(0) c1(orks_boy_shield_2) t(all inf_tac) s(ork) g(non) b(non)) {cost 10} {fore 1}}
+{"bot_orks_boy_shield_3"			("f_1" c(0) c1(orks_boy_shield_3) t(all inf_tac) s(ork) g(non) b(non)) {cost 10} {fore 1}}
+
+{"bot_orks_meganob_1"				("f_1" c(0) c1(orks_meganob_1) t(all inf_vet) s(ork) g(non) b(non)) {level 1} {cost 30} {fore 1}}
+
+{"bot_orks_shoota_boy_1"			("f_1" c(0) c1(orks_shoota_boy_1) t(all inf_tac) s(ork) g(non) b(non)) {cost 5} {fore 1}}
+{"bot_orks_shoota_boy_2"			("f_1" c(0) c1(orks_shoota_boy_2) t(all inf_tac) s(ork) g(non) b(non)) {cost 6} {fore 1}}
+{"bot_orks_shoota_boy_3"			("f_1" c(0) c1(orks_shoota_boy_3) t(all inf_tac) s(ork) g(non) b(non)) {cost 7} {fore 1}}
+{"bot_orks_shoota_boy_4"			("f_1" c(0) c1(orks_shoota_boy_4) t(all inf_tac) s(ork) g(non) b(non)) {cost 8} {fore 1}}
+{"bot_orks_shoota_boy_5"			("f_1" c(0) c1(orks_shoota_boy_5) t(all inf_tac) s(ork) g(non) b(non)) {cost 8} {fore 1}}
+{"bot_orks_shoota_boy_6"			("f_1" c(0) c1(orks_shoota_boy_6) t(all inf_tac) s(ork) g(non) b(non)) {cost 10} {fore 1}}
+{"bot_orks_shootaroket_boy_1"		("f_1" c(0) c1(orks_shootaroket_boy_1) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 10} {fore 1}}
+{"bot_orks_twinshoota_boy_1"		("f_1" c(0) c1(orks_twinshoota_boy_1) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 10} {fore 1}}
+
+{"bot_orks_nob_shoota_1"			("f_1" c(0) c1(orks_nob_shoota_1) t(all inf_vet) s(ork) g(non) b(non)) {cost 25} {fore 1}}
+{"bot_orks_nob_shoota_2"			("f_1" c(0) c1(orks_nob_shoota_2) t(all inf_vet) s(ork) g(non) b(non)) {cost 25} {fore 1}}
+{"bot_orks_nob_shoota_3"			("f_1" c(0) c1(orks_nob_shoota_3) t(all inf_vet) s(ork) g(non) b(non)) {cost 25} {fore 1}}
+{"bot_orks_nob_big_shoota_1"		("f_1" c(0) c1(orks_nob_big_shoota_1) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 28} {fore 1}}
+{"bot_orks_nob_big_shoota_2"		("f_1" c(0) c1(orks_nob_big_shoota_2) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 28} {fore 1}}
+{"bot_orks_nob_big_shoota_3"		("f_1" c(0) c1(orks_nob_big_shoota_3) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 28} {fore 1}}
+{"bot_orks_nob_burna_1"				("f_1" c(0) c1(orks_nob_burna_1) t(all inf_a_all) s(ork) g(non) b(non)) {cost 20} {fore 1}}
+{"bot_orks_nob_burna_2"				("f_1" c(0) c1(orks_nob_burna_2) t(all inf_a_all) s(ork) g(non) b(non)) {cost 20} {fore 1}}
+{"bot_orks_nob_burna_3"				("f_1" c(0) c1(orks_nob_burna_3) t(all inf_a_all) s(ork) g(non) b(non)) {cost 20} {fore 1}}
+{"bot_orks_nob_spechul_shoota_1"	("f_1" c(0) c1(orks_nob_spechul_shoota_1) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 30} {fore 1}}
+{"bot_orks_nob_spechul_shoota_2"	("f_1" c(0) c1(orks_nob_spechul_shoota_2) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 30} {fore 1}}
+{"bot_orks_nob_spechul_shoota_3"	("f_1" c(0) c1(orks_nob_spechul_shoota_3) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 30} {fore 1}}
+
+{"bot_orks_loota_boy_1"				("f_1" c(0) c1(orks_loota_boy_1) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 40} {score 10} {fore 1}}
+{"bot_orks_loota_boy_2"				("f_1" c(0) c1(orks_loota_boy_2) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 45} {score 10} {fore 1}}
+{"bot_orks_loota_boy_3"				("f_1" c(0) c1(orks_loota_boy_3) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 60} {score 10} {fore 1}}
+{"bot_orks_loota_boy_rl"			("f_1" c(0) c1(orks_loota_boy_rl) t(all inf_a_veh) s(ork) g(non) b(non)) {cost 55} {score 10} {fore 1}}
+{"bot_orks_loota_boy_mm"			("f_1" c(0) c1(orks_loota_boy_mm) t(all inf_a_veh) s(ork) g(non) b(non)) {cost 60} {score 10} {fore 1}}
+{"bot_orks_loota_boy_gr"			("f_1" c(0) c1(orks_loota_boy_gr) t(all inf_a_inf) s(ork) g(non) b(non)) {cost 80} {score 10} {fore 1}}
+{"bot_orks_loota_boy_pc"			("f_1" c(0) c1(orks_loota_boy_pc) t(all inf_a_all) s(ork) g(non) b(non)) {cost 120} {score 10} {fore 1}}
+{"bot_orks_loota_boy_lc"			("f_1" c(0) c1(orks_loota_boy_lc) t(all inf_a_veh) s(ork) g(non) b(non)) {cost 150} {score 10} {fore 1}}
+
+
+;Старое
+{"bot_sq_shoota_boy_1"				("f_5x2" c(10) c1(orks_shoota_boy_1) c2(orks_shoota_boy_2) c3(orks_shoota_boy_3) c4(orks_shoota_boy_4) c5(orks_shoota_boy_5) t(all non) s(ork) g(orks_1) cp(5) b(non)) {level 1} {cost 25} {score 10} {fore 1}}
+{"bot_sq_shoota_boy_2"				("f_5x2" c(10) c1(orks_shoota_boy_6) c2(orks_shoota_boy_6) c3(orks_shoota_boy_6) c4(orks_shoota_boy_3) c5(orks_twinshoota_boy_1) t(all non) s(ork) g(orks_2) cp(5) b(non)) {level 1} {cost 30} {score 10} {fore 1}}
+{"bot_sq_shoota_boy_3"				("f_5x2" c(10) c1(orks_shoota_boy_2) c2(orks_shoota_boy_4) c3(orks_shoota_boy_5) c4(orks_twinshoota_boy_1) c5(orks_shootaroket_boy_1) t(all non) s(ork) g(orks_3) cp(5) b(non)) {level 1} {cost 35} {score 10} {fore 1}}
+{"bot_sq_shoota_boy_4"				("f_5x2" c(10) c1(orks_boy_choppa_1) c2(orks_boy_choppa_1) c3(orks_boy_choppa_1) c4(orks_boy_choppa_1) c5(orks_boy_choppa_1) t(all non) s(ork) g(orks_8) cp(5) b(non)) {level 1} {cost 25} {score 10} {fore 1}}
+{"bot_sq_meganob"					("f_5" c(10) c1(orks_meganob_1) c2(orks_meganob_1) c3(orks_meganob_1) c4(orks_meganob_1) c5(orks_meganob_1) t(all non) s(ork) g(orks_9) cp(5) b(non)) {level 1} {cost 180} {score 10} {fore 1}}
+{"bot_sq_nob_shoota"				("f_5" c(10) c1(orks_nob_shoota_3) c2(orks_nob_shoota_2) c3(orks_nob_shoota_2) c4(orks_nob_shoota_1) c5(orks_nob_shoota_1) t(all non) s(ork) g(orks_4) cp(5) b(non)) {level 1} {cost 80} {score 10} {fore 1}}
+{"bot_sq_nob_big_shoota"			("f_5" c(10) c1(orks_nob_big_shoota_3) c2(orks_nob_big_shoota_2) c3(orks_nob_big_shoota_2) c4(orks_nob_big_shoota_1) c5(orks_nob_big_shoota_1) t(all non) s(ork) g(orks_5) cp(5) b(non)) {level 1} {cost 100} {score 10} {fore 1}}
+{"bot_sq_nob_spechul_shoota"		("f_5" c(10) c1(orks_nob_spechul_shoota_3) c2(orks_nob_spechul_shoota_2) c3(orks_nob_spechul_shoota_2) c4(orks_nob_spechul_shoota_1) c5(orks_nob_spechul_shoota_1) t(all non) s(ork) g(orks_6) cp(5) b(non)) {level 1} {cost 140} {score 10} {fore 1}}
+{"bot_sq_nob_burna"					("f_5" c(10) c1(orks_nob_burna_3) c2(orks_nob_burna_2) c3(orks_nob_burna_2) c4(orks_nob_burna_1) c5(orks_nob_burna_1) t(all non) s(ork) g(orks_7) cp(5) b(non)) {level 1} {cost 135} {score 10} {fore 1}}
+
+
